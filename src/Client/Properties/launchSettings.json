@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BlazorHero.CleanArchitecture": {
+    "NoNonense": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

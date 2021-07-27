@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Requests.Identity;
+using NoNonense.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Account
+namespace NoNonense.Client.Infrastructure.Managers.Identity.Account
 {
     public interface IAccountManager : IManager
     {

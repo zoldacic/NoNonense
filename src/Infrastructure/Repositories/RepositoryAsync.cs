@@ -1,12 +1,12 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
+﻿using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Repositories
+namespace NoNonense.Infrastructure.Repositories
 {
     public class RepositoryAsync<T, TId> : IRepositoryAsync<T, TId> where T : AuditableEntity<TId>
     {

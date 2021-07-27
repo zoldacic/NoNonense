@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services
+namespace NoNonense.Application.Interfaces.Services
 {
     public interface IDateTimeService
     {

@@ -1,9 +1,9 @@
 ﻿#nullable enable
 using System;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Domain.Enums;
+using NoNonense.Domain.Contracts;
+using NoNonense.Domain.Enums;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById
+namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetById
 {
     public class GetExtendedAttributeByIdResponse<TId, TEntityId> : IEntityAuditableExtendedAttribute
     {

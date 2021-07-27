@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Responses.Identity;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
@@ -9,12 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Roles;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Requests.Identity;
+using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Identity
+namespace NoNonense.Client.Pages.Identity
 {
     public partial class Roles
     {

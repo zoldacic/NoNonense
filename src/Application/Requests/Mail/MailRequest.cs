@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Requests.Mail
+﻿namespace NoNonense.Application.Requests.Mail
 {
     public class MailRequest
     {

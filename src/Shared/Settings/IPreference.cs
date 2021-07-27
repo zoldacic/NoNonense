@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Shared.Settings
+﻿namespace NoNonense.Shared.Settings
 {
     public interface IPreference
     {

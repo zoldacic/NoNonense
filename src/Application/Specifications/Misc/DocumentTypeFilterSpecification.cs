@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Specifications.Base;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+﻿using NoNonense.Application.Specifications.Base;
+using NoNonense.Domain.Entities.Misc;
 
-namespace BlazorHero.CleanArchitecture.Application.Specifications.Misc
+namespace NoNonense.Application.Specifications.Misc
 {
     public class DocumentTypeFilterSpecification : HeroSpecification<DocumentType>
     {

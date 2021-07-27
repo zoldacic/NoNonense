@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using NoNonense.Application.Requests.Identity;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Validators.Requests.Identity
+namespace NoNonense.Application.Validators.Requests.Identity
 {
     public class TokenRequestValidator : AbstractValidator<TokenRequest>
     {

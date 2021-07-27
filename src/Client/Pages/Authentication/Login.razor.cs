@@ -1,11 +1,11 @@
-﻿using Blazored.FluentValidation;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using NoNonense.Application.Requests.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Blazored.FluentValidation;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
+namespace NoNonense.Client.Pages.Authentication
 {
     public partial class Login
     {
@@ -25,7 +25,12 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
         private async Task SubmitAsync()
         {
             var result = await _authenticationManager.Login(_tokenModel);
-            if (!result.Succeeded)
+            if (result.Succeeded)
+            {
+                _snackBar.Add(string.Format(_localizer["Welcome {0}"], _tokenModel.Email), Severity.Success);
+                _navigationManager.NavigateTo("/", true);
+            }
+            else
             {
                 foreach (var message in result.Messages)
                 {
@@ -40,7 +45,7 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Authentication
 
         void TogglePasswordVisibility()
         {
-            if (_passwordVisibility)
+            if(_passwordVisibility)
             {
                 _passwordVisibility = false;
                 _passwordInputIcon = Icons.Material.Filled.VisibilityOff;

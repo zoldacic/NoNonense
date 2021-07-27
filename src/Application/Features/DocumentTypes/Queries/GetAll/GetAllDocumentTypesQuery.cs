@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetAll
+namespace NoNonense.Application.Features.DocumentTypes.Queries.GetAll
 {
     public class GetAllDocumentTypesQuery : IRequest<Result<List<GetAllDocumentTypesResponse>>>
     {

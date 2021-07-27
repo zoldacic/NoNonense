@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Models.Chat;
+﻿using NoNonense.Application.Models.Chat;
 using System.Collections.Generic;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
+using NoNonense.Application.Interfaces.Chat;
 
-namespace BlazorHero.CleanArchitecture.Application.Responses.Identity
+namespace NoNonense.Application.Responses.Identity
 {
     public class ChatUserResponse
     {

@@ -2,12 +2,12 @@
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById
+namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetById
 {
     public class GetExtendedAttributeByIdQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<GetExtendedAttributeByIdResponse<TId, TEntityId>>>

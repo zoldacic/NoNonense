@@ -1,14 +1,14 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Requests.Identity;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Roles;
+using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Identity
+namespace NoNonense.Client.Pages.Identity
 {
     public partial class RoleModal
     {

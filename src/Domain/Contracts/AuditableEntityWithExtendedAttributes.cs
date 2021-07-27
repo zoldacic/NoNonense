@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Domain.Contracts
+namespace NoNonense.Domain.Contracts
 {
     public abstract class AuditableEntityWithExtendedAttributes<TId, TEntityId, TEntity, TExtendedAttribute> 
         : AuditableEntity<TEntityId>, IEntityWithExtendedAttributes<TExtendedAttribute>

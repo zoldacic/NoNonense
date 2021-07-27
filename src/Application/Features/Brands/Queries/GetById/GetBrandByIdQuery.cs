@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Entities.Catalog;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetById
+namespace NoNonense.Application.Features.Brands.Queries.GetById
 {
     public class GetBrandByIdQuery : IRequest<Result<GetBrandByIdResponse>>
     {

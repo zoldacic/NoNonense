@@ -5,16 +5,16 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Domain.Enums;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Domain.Enums;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit
+namespace NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit
 {
     internal class AddEditExtendedAttributeCommandLocalization
     {

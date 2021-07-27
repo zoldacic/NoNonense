@@ -1,14 +1,14 @@
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences;
+using NoNonense.Client.Extensions;
+using NoNonense.Client.Infrastructure.Managers.Preferences;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
+using NoNonense.Client.Infrastructure.Settings;
+using NoNonense.Shared.Constants.Localization;
 
-namespace BlazorHero.CleanArchitecture.Client
+namespace NoNonense.Client
 {
     public static class Program
     {

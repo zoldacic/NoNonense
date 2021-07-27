@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using NoNonense.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Domain.Entities.Misc
+namespace NoNonense.Domain.Entities.Misc
 {
     public class DocumentType : AuditableEntity<int>
     {

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAll
+namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll
 {
     public class GetAllExtendedAttributesQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<List<GetAllExtendedAttributesResponse<TId, TEntityId>>>>

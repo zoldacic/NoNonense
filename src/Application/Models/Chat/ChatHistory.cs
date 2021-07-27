@@ -1,7 +1,7 @@
 ﻿using System;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
+using NoNonense.Application.Interfaces.Chat;
 
-namespace BlazorHero.CleanArchitecture.Application.Models.Chat
+namespace NoNonense.Application.Models.Chat
 {
     public partial class ChatHistory<TUser> : IChatHistory<TUser> where TUser : IChatUser
     {

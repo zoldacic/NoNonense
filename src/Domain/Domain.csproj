@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Domain</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Domain</AssemblyName>
+    <RootNamespace>NoNonense.Domain</RootNamespace>
+    <AssemblyName>NoNonense.Domain</AssemblyName>
   </PropertyGroup>
 
 </Project>

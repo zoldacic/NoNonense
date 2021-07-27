@@ -1,7 +1,7 @@
-using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Server.Extensions;
-using BlazorHero.CleanArchitecture.Server.Middlewares;
+using NoNonense.Application.Extensions;
+using NoNonense.Infrastructure.Extensions;
+using NoNonense.Server.Extensions;
+using NoNonense.Server.Middlewares;
 using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,11 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
-using BlazorHero.CleanArchitecture.Server.Filters;
-using BlazorHero.CleanArchitecture.Server.Managers.Preferences;
+using NoNonense.Server.Filters;
+using NoNonense.Server.Managers.Preferences;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Server
+namespace NoNonense.Server
 {
     public class Startup
     {

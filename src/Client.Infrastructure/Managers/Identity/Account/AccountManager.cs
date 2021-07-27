@@ -1,11 +1,11 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Requests.Identity;
+using NoNonense.Client.Infrastructure.Extensions;
+using NoNonense.Shared.Wrapper;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Account
+namespace NoNonense.Client.Infrastructure.Managers.Identity.Account
 {
     public class AccountManager : IAccountManager
     {

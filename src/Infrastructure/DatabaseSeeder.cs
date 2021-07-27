@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Infrastructure.Helpers;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
-using BlazorHero.CleanArchitecture.Shared.Constants.Role;
-using BlazorHero.CleanArchitecture.Shared.Constants.User;
+﻿using NoNonense.Application.Interfaces.Services;
+using NoNonense.Infrastructure.Contexts;
+using NoNonense.Infrastructure.Helpers;
+using NoNonense.Infrastructure.Models.Identity;
+using NoNonense.Shared.Constants.Permission;
+using NoNonense.Shared.Constants.Role;
+using NoNonense.Shared.Constants.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure
+namespace NoNonense.Infrastructure
 {
     public class DatabaseSeeder : IDatabaseSeeder
     {

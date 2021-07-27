@@ -1,20 +1,20 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Requests.Documents;
-using BlazorHero.CleanArchitecture.Client.Extensions;
+﻿using NoNonense.Application.Features.Documents.Queries.GetAll;
+using NoNonense.Application.Requests.Documents;
+using NoNonense.Client.Extensions;
 using MudBlazor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.Document;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Features.Documents.Commands.AddEdit;
+using NoNonense.Client.Infrastructure.Managers.Misc.Document;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Misc
+namespace NoNonense.Client.Pages.Misc
 {
     public partial class DocumentStore
     {

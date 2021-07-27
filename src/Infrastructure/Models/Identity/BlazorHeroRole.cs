@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using NoNonense.Domain.Contracts;
 using Microsoft.AspNetCore.Identity;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Models.Identity
+namespace NoNonense.Infrastructure.Models.Identity
 {
     public class BlazorHeroRole : IdentityRole, IAuditableEntity<string>
     {

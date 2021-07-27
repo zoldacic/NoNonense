@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
+using NoNonense.Application.Features.Products.Commands.AddEdit;
+using NoNonense.Domain.Entities.Catalog;
 
-namespace BlazorHero.CleanArchitecture.Application.Mappings
+namespace NoNonense.Application.Mappings
 {
     public class ProductProfile : Profile
     {

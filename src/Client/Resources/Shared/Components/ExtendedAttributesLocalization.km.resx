@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Actions" xml:space="preserve">
-    <value>សកម្មភាព</value>
+    <value>Actions</value>
   </data>
   <data name="All Groups" xml:space="preserve">
-    <value>ក្រុមទាំងអស់</value>
+    <value>All Groups</value>
   </data>
   <data name="Bordered" xml:space="preserve">
-    <value>ព្រុំព្រទល់</value>
+    <value>Bordered</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>បង្កើត</value>
+    <value>Create</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>លុប</value>
+    <value>Delete</value>
   </data>
   <data name="Delete Extended Attribute?" xml:space="preserve">
-    <value>លុបជួរឈរបន្ថែម?</value>
+    <value>Delete Extended Attribute?</value>
   </data>
   <data name="Dense" xml:space="preserve">
-    <value>បង្រួម</value>
+    <value>Dense</value>
   </data>
   <data name="Description" xml:space="preserve">
-    <value>ពិពណ៌នា</value>
+    <value>Description</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>កែប្រែ</value>
+    <value>Edit</value>
   </data>
   <data name="Entity Id" xml:space="preserve">
     <value>Entity Id</value>
   </data>
   <data name="Export" xml:space="preserve">
-    <value>នាំចេញ</value>
+    <value>Export</value>
   </data>
   <data name="Extended Attributes exported" xml:space="preserve">
-    <value>ជួរឈរបន្ថែមនាំចេញ</value>
+    <value>Extended Attributes exported</value>
   </data>
   <data name="External Id" xml:space="preserve">
     <value>External Id</value>
   </data>
   <data name="Filtered Extended Attributes exported" xml:space="preserve">
-    <value>ច្រោះជួរឈរបន្ថែមនាំចេញ</value>
+    <value>Filtered Extended Attributes exported</value>
   </data>
   <data name="Group" xml:space="preserve">
-    <value>ក្រុម</value>
+    <value>Group</value>
   </data>
   <data name="Id" xml:space="preserve">
     <value>Id</value>
@@ -169,7 +169,7 @@
     <value>Include Entity fields (Export)</value>
   </data>
   <data name="Is Active" xml:space="preserve">
-    <value>គឺសកម្ម</value>
+    <value>Is Active</value>
   </data>
   <data name="Key" xml:space="preserve">
     <value>Key</value>
@@ -181,19 +181,19 @@
     <value>Manage {0} {1}'s Extended Attributes</value>
   </data>
   <data name="No Allowed Actions" xml:space="preserve">
-    <value>មិនត្រូវបានអនុញ្ញាត</value>
+    <value>No Allowed Actions</value>
   </data>
   <data name="Not Allowed." xml:space="preserve">
-    <value>មិនអនុញ្ញាត្ត</value>
+    <value>Not Allowed.</value>
   </data>
   <data name="Only Selected Group (Export)" xml:space="preserve">
     <value>Only Selected Group (Export)</value>
   </data>
   <data name="Owner" xml:space="preserve">
-    <value>ម្ចាស់</value>
+    <value>Owner</value>
   </data>
   <data name="Reload" xml:space="preserve">
-    <value>ផ្ទុកឡើងវិញ</value>
+    <value>Reload</value>
   </data>
   <data name="Search For {0} Extended Attributes" xml:space="preserve">
     <value>Search For {0} Extended Attributes</value>
@@ -202,10 +202,10 @@
     <value>Striped</value>
   </data>
   <data name="Type" xml:space="preserve">
-    <value>ប្រភេទ</value>
+    <value>Type</value>
   </data>
   <data name="Value" xml:space="preserve">
-    <value>តម្លៃ</value>
+    <value>Value</value>
   </data>
   <data name="you" xml:space="preserve">
     <value>you</value>

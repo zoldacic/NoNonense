@@ -1,21 +1,21 @@
 ﻿using Blazored.LocalStorage;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Routes;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Requests.Identity;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Client.Infrastructure.Authentication;
+using NoNonense.Client.Infrastructure.Extensions;
+using NoNonense.Shared.Wrapper;
 using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.Extensions.Localization;
 using System;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using NoNonense.Client.Infrastructure.Routes;
+using NoNonense.Shared.Constants.Storage;
+using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Authentication
+namespace NoNonense.Client.Infrastructure.Managers.Identity.Authentication
 {
     public class AuthenticationManager : IAuthenticationManager
     {
@@ -57,11 +57,8 @@ namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.A
                 {
                     await _localStorage.SetItemAsync(StorageConstants.Local.UserImageURL, userImageURL);
                 }
-
-                await ((BlazorHeroStateProvider)this._authenticationStateProvider).StateChangedAsync();
-
+                ((BlazorHeroStateProvider)this._authenticationStateProvider).MarkUserAsAuthenticated(model.Email);
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-
                 return await Result.SuccessAsync();
             }
             else

@@ -1,11 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Configurations;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Configurations;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Infrastructure.Models.Identity;
+using NoNonense.Application.Requests.Identity;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -16,8 +15,9 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
+namespace NoNonense.Infrastructure.Services.Identity
 {
     public class IdentityService : ITokenService
     {
@@ -155,8 +155,7 @@ namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
                 ValidateIssuer = false,
                 ValidateAudience = false,
                 RoleClaimType = ClaimTypes.Role,
-                ClockSkew = TimeSpan.Zero,
-                ValidateLifetime = false
+                ClockSkew = TimeSpan.Zero
             };
             var tokenHandler = new JwtSecurityTokenHandler();
             var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out var securityToken);

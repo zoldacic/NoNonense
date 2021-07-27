@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Enums;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Audit;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
+﻿using NoNonense.Application.Enums;
+using NoNonense.Infrastructure.Models.Audit;
+using NoNonense.Infrastructure.Models.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Contexts
+namespace NoNonense.Infrastructure.Contexts
 {
     public abstract class AuditableContext : IdentityDbContext<BlazorHeroUser, BlazorHeroRole, string, IdentityUserClaim<string>, IdentityUserRole<string>, IdentityUserLogin<string>, BlazorHeroRoleClaim, IdentityUserToken<string>>
     {

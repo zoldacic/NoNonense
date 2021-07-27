@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Features.Brands.Queries.GetAll;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
@@ -9,17 +9,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Brand;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Features.Brands.Commands.AddEdit;
+using NoNonense.Client.Infrastructure.Managers.Catalog.Brand;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.JSInterop;
-using BlazorHero.CleanArchitecture.Application.Features.Brands.Commands.Import;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
-using BlazorHero.CleanArchitecture.Application.Requests;
-using BlazorHero.CleanArchitecture.Client.Shared.Components;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
+namespace NoNonense.Client.Pages.Catalog
 {
     public partial class Brands
     {
@@ -40,7 +36,6 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
         private bool _canDeleteBrands;
         private bool _canExportBrands;
         private bool _canSearchBrands;
-        private bool _canImportBrands;
         private bool _loaded;
 
         protected override async Task OnInitializedAsync()
@@ -51,11 +46,9 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
             _canDeleteBrands = (await _authorizationService.AuthorizeAsync(_currentUser, Permissions.Brands.Delete)).Succeeded;
             _canExportBrands = (await _authorizationService.AuthorizeAsync(_currentUser, Permissions.Brands.Export)).Succeeded;
             _canSearchBrands = (await _authorizationService.AuthorizeAsync(_currentUser, Permissions.Brands.Search)).Succeeded;
-            _canImportBrands = (await _authorizationService.AuthorizeAsync(_currentUser, Permissions.Brands.Import)).Succeeded;
 
             await GetBrandsAsync();
             _loaded = true;
-
             HubConnection = HubConnection.TryInitialize(_navigationManager);
             if (HubConnection.State == HubConnectionState.Disconnected)
             {
@@ -84,7 +77,7 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
             string deleteContent = _localizer["Delete Content"];
             var parameters = new DialogParameters
             {
-                { nameof(Shared.Dialogs.DeleteConfirmation.ContentText), string.Format(deleteContent, id) }
+                {nameof(Shared.Dialogs.DeleteConfirmation.ContentText), string.Format(deleteContent, id)}
             };
             var options = new DialogOptions { CloseButton = true, MaxWidth = MaxWidth.Small, FullWidth = true, DisableBackdropClick = true };
             var dialog = _dialogService.Show<Shared.Dialogs.DeleteConfirmation>(_localizer["Delete"], parameters, options);
@@ -159,36 +152,6 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
             }
         }
 
-        private async Task<IResult<int>> ImportExcel(UploadRequest uploadFile)
-        {
-            var request = new ImportBrandsCommand { UploadRequest = uploadFile };
-            var result = await BrandManager.ImportAsync(request);
-            return result;
-        }
-
-        private async Task InvokeImportModal()
-        {
-            var parameters = new DialogParameters
-            {
-                { nameof(ImportExcelModal.ModelName), _localizer["Brands"].ToString() }
-            };
-            Func<UploadRequest, Task<IResult<int>>> importExcel = ImportExcel;
-            parameters.Add(nameof(ImportExcelModal.OnSaved), importExcel);
-            var options = new DialogOptions
-            {
-                CloseButton = true,
-                MaxWidth = MaxWidth.Small,
-                FullWidth = true,
-                DisableBackdropClick = true
-            };
-            var dialog = _dialogService.Show<ImportExcelModal>(_localizer["Import"], parameters, options);
-            var result = await dialog.Result;
-            if (!result.Cancelled)
-            {
-                await Reset();
-            }
-        }
-
         private async Task Reset()
         {
             _brand = new GetAllBrandsResponse();
@@ -202,7 +165,11 @@ namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
             {
                 return true;
             }
-            return brand.Description?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true;
+            if (brand.Description?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

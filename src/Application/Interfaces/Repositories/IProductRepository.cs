@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Repositories
+namespace NoNonense.Application.Interfaces.Repositories
 {
     public interface IProductRepository
     {

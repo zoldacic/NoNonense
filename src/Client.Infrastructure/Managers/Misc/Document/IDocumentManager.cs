@@ -1,11 +1,11 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Requests.Documents;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Features.Documents.Commands.AddEdit;
+using NoNonense.Application.Features.Documents.Queries.GetAll;
+using NoNonense.Application.Requests.Documents;
+using NoNonense.Shared.Wrapper;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetById;
+using NoNonense.Application.Features.Documents.Queries.GetById;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.Document
+namespace NoNonense.Client.Infrastructure.Managers.Misc.Document
 {
     public interface IDocumentManager : IManager
     {

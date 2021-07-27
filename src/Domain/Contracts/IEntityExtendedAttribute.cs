@@ -1,8 +1,8 @@
 ﻿#nullable enable
 using System;
-using BlazorHero.CleanArchitecture.Domain.Enums;
+using NoNonense.Domain.Enums;
 
-namespace BlazorHero.CleanArchitecture.Domain.Contracts
+namespace NoNonense.Domain.Contracts
 {
     public interface IEntityExtendedAttribute<TId, TEntityId, TEntity>
         : IEntityExtendedAttribute<TEntityId, TEntity>, IEntity<TId>

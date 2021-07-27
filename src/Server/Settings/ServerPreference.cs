@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
-using BlazorHero.CleanArchitecture.Shared.Settings;
+using NoNonense.Shared.Constants.Localization;
+using NoNonense.Shared.Settings;
 
-namespace BlazorHero.CleanArchitecture.Server.Settings
+namespace NoNonense.Server.Settings
 {
     public record ServerPreference : IPreference
     {

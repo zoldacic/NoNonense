@@ -1,4 +1,4 @@
-namespace BlazorHero.CleanArchitecture.Application.Models.Chat
+namespace NoNonense.Application.Models.Chat
 {
     public class Message
     {

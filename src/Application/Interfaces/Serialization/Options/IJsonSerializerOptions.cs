@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Options
+namespace NoNonense.Application.Interfaces.Serialization.Options
 {
     public interface IJsonSerializerOptions
     {

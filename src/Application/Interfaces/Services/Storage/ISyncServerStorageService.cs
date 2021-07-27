@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage
+namespace NoNonense.Application.Interfaces.Services.Storage
 {
     public interface ISyncServerStorageService
     {

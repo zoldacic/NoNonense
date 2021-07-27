@@ -6,24 +6,24 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Exceptions;
-using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Mail;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Specifications;
-using BlazorHero.CleanArchitecture.Shared.Constants.Role;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Exceptions;
+using NoNonense.Application.Extensions;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Application.Requests.Identity;
+using NoNonense.Application.Requests.Mail;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Infrastructure.Models.Identity;
+using NoNonense.Infrastructure.Specifications;
+using NoNonense.Shared.Constants.Role;
+using NoNonense.Shared.Wrapper;
 using Hangfire;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
+namespace NoNonense.Infrastructure.Services.Identity
 {
     public class UserService : IUserService
     {
@@ -241,7 +241,7 @@ namespace BlazorHero.CleanArchitecture.Infrastructure.Services.Identity
             var passwordResetURL = QueryHelpers.AddQueryString(endpointUri.ToString(), "Token", code);
             var mailRequest = new MailRequest
             {
-                Body = string.Format(_localizer["Please reset your password by <a href='{0}'>clicking here</a>."], HtmlEncoder.Default.Encode(passwordResetURL)),
+                Body = string.Format(_localizer["Please reset your password by <a href='{0}>clicking here</a>."], HtmlEncoder.Default.Encode(passwordResetURL)),
                 Subject = _localizer["Reset Password"],
                 To = request.Email
             };

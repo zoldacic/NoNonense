@@ -1,28 +1,23 @@
-﻿using BlazorHero.CleanArchitecture.Application.Configurations;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Options;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Settings;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Account;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Serialization.JsonConverters;
-using BlazorHero.CleanArchitecture.Application.Serialization.Options;
-using BlazorHero.CleanArchitecture.Application.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Serialization.Settings;
-using BlazorHero.CleanArchitecture.Infrastructure;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Shared.Services;
-using BlazorHero.CleanArchitecture.Server.Localization;
-using BlazorHero.CleanArchitecture.Server.Managers.Preferences;
-using BlazorHero.CleanArchitecture.Server.Services;
-using BlazorHero.CleanArchitecture.Server.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Configurations;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Interfaces.Services.Account;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Infrastructure;
+using NoNonense.Infrastructure.Contexts;
+using NoNonense.Infrastructure.Models.Identity;
+using NoNonense.Infrastructure.Services;
+using NoNonense.Infrastructure.Services.Identity;
+using NoNonense.Infrastructure.Shared.Services;
+using NoNonense.Server.Localization;
+using NoNonense.Server.Managers.Preferences;
+using NoNonense.Server.Permission;
+using NoNonense.Server.Services;
+using NoNonense.Server.Settings;
+using NoNonense.Shared.Constants.Localization;
+using NoNonense.Shared.Constants.Permission;
+using NoNonense.Shared.Wrapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -43,8 +38,15 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using NoNonense.Application.Interfaces.Serialization.Options;
+using NoNonense.Application.Interfaces.Serialization.Serializers;
+using NoNonense.Application.Interfaces.Serialization.Settings;
+using NoNonense.Application.Serialization.JsonConverters;
+using NoNonense.Application.Serialization.Options;
+using NoNonense.Application.Serialization.Serializers;
+using NoNonense.Application.Serialization.Settings;
 
-namespace BlazorHero.CleanArchitecture.Server.Extensions
+namespace NoNonense.Server.Extensions
 {
     internal static class ServiceCollectionExtensions
     {
@@ -117,7 +119,7 @@ namespace BlazorHero.CleanArchitecture.Server.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "BlazorHero.CleanArchitecture",
+                    Title = "NoNonense",
                     License = new OpenApiLicense
                     {
                         Name = "MIT License",
@@ -188,6 +190,8 @@ namespace BlazorHero.CleanArchitecture.Server.Extensions
         internal static IServiceCollection AddIdentity(this IServiceCollection services)
         {
             services
+                .AddSingleton<IAuthorizationPolicyProvider, PermissionPolicyProvider>()
+                .AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>()
                 .AddIdentity<BlazorHeroUser, BlazorHeroRole>(options =>
                 {
                     options.Password.RequiredLength = 6;
@@ -264,17 +268,10 @@ namespace BlazorHero.CleanArchitecture.Server.Extensions
                             }
                             else
                             {
-#if DEBUG
-                                c.NoResult();
-                                c.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                                c.Response.ContentType = "text/plain";
-                                return c.Response.WriteAsync(c.Exception.ToString());
-#else
                                 c.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                                 c.Response.ContentType = "application/json";
                                 var result = JsonConvert.SerializeObject(Result.Fail(localizer["An unhandled error has occurred."]));
                                 return c.Response.WriteAsync(result);
-#endif
                             }
                         },
                         OnChallenge = context =>

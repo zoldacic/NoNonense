@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Chat
+namespace NoNonense.Application.Interfaces.Chat
 {
     public interface IChatUser
     {

@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Responses.Audit;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Responses.Audit;
+using NoNonense.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Services
+namespace NoNonense.Application.Interfaces.Services
 {
     public interface IAuditService
     {

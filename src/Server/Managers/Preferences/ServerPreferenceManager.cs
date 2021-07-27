@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage;
-using BlazorHero.CleanArchitecture.Server.Settings;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
-using BlazorHero.CleanArchitecture.Shared.Settings;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Services.Storage;
+using NoNonense.Server.Settings;
+using NoNonense.Shared.Constants.Storage;
+using NoNonense.Shared.Settings;
+using NoNonense.Shared.Wrapper;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Server.Managers.Preferences
+namespace NoNonense.Server.Managers.Preferences
 {
     public class ServerPreferenceManager : IServerPreferenceManager
     {

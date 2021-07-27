@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Migrations
+namespace NoNonense.Infrastructure.Migrations
 {
     public partial class AddBlazorHeroRole : Migration
     {

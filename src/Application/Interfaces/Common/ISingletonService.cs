@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Interfaces.Common
+﻿namespace NoNonense.Application.Interfaces.Common
 {
     public interface ISingletonService
     {

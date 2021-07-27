@@ -1,21 +1,21 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Exceptions;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Exceptions;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Application.Models.Chat;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Infrastructure.Contexts;
+using NoNonense.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Identity;
-using BlazorHero.CleanArchitecture.Shared.Constants.Role;
+using NoNonense.Application.Interfaces.Chat;
+using NoNonense.Infrastructure.Models.Identity;
+using NoNonense.Shared.Constants.Role;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services
+namespace NoNonense.Infrastructure.Services
 {
     public class ChatService : IChatService
     {

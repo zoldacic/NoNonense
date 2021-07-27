@@ -15,36 +15,36 @@
 @using Blazored.FluentValidation
 
 @*Client Services*@
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Account
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Authentication
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Roles
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.RoleClaims
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Users
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Preferences
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Interceptors
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Product
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Brand
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Dashboard
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Communication
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Audit
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.Document
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Misc.DocumentType
+@using NoNonense.Client.Infrastructure.Managers.Identity.Account
+@using NoNonense.Client.Infrastructure.Managers.Identity.Authentication
+@using NoNonense.Client.Infrastructure.Managers.Identity.Roles
+@using NoNonense.Client.Infrastructure.Managers.Identity.RoleClaims
+@using NoNonense.Client.Infrastructure.Managers.Identity.Users
+@using NoNonense.Client.Infrastructure.Managers.Preferences
+@using NoNonense.Client.Infrastructure.Managers.Interceptors
+@using NoNonense.Client.Infrastructure.Managers.Catalog.Product
+@using NoNonense.Client.Infrastructure.Managers.Catalog.Brand
+@using NoNonense.Client.Infrastructure.Managers.Dashboard
+@using NoNonense.Client.Infrastructure.Managers.Communication
+@using NoNonense.Client.Infrastructure.Managers.Audit
+@using NoNonense.Client.Infrastructure.Managers.Misc.Document
+@using NoNonense.Client.Infrastructure.Managers.Misc.DocumentType
 
 @*Shared Libraries*@
-@using BlazorHero.CleanArchitecture.Shared.Constants.Permission
-@using BlazorHero.CleanArchitecture.Client.Shared.Components
+@using NoNonense.Shared.Constants.Permission
+@using NoNonense.Client.Shared.Components
 
-@using BlazorHero.CleanArchitecture.Client
-@using BlazorHero.CleanArchitecture.Client.Shared
-@using BlazorHero.CleanArchitecture.Client.Shared.Dialogs
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Settings
+@using NoNonense.Client
+@using NoNonense.Client.Shared
+@using NoNonense.Client.Shared.Dialogs
+@using NoNonense.Client.Infrastructure.Settings
 
-@using BlazorHero.CleanArchitecture.Application.Requests.Identity
+@using NoNonense.Application.Requests.Identity
 
-@using BlazorHero.CleanArchitecture.Client.Pages.Authentication
+@using NoNonense.Client.Pages.Authentication
 
-@using BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication
-@using BlazorHero.CleanArchitecture.Client.Extensions
+@using NoNonense.Client.Infrastructure.Authentication
+@using NoNonense.Client.Extensions
 
 @attribute [Authorize]
 @inject IAuthenticationManager _authenticationManager

@@ -1,6 +1,5 @@
 ﻿using Blazored.LocalStorage;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Components.Authorization;
 using System;
 using System.Collections.Generic;
@@ -10,8 +9,9 @@ using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text.Json;
 using System.Threading.Tasks;
+using NoNonense.Shared.Constants.Storage;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication
+namespace NoNonense.Client.Infrastructure.Authentication
 {
     public class BlazorHeroStateProvider : AuthenticationStateProvider
     {
@@ -26,12 +26,17 @@ namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Authentication
             _localStorage = localStorage;
         }
 
-        public async Task StateChangedAsync()
+        public void MarkUserAsAuthenticated(string userName)
         {
-            var authState = Task.FromResult(await GetAuthenticationStateAsync());
+            var authenticatedUser = new ClaimsPrincipal(
+                new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, userName)
+                }, "apiauth"));
+
+            var authState = Task.FromResult(new AuthenticationState(authenticatedUser));
 
             NotifyAuthenticationStateChanged(authState);
-
         }
 
         public void MarkUserAsLoggedOut()

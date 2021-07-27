@@ -130,13 +130,13 @@
     <value>វាយបញ្ចូលសាររបស់អ្នក</value>
   </data>
   <data name="Logged In." xml:space="preserve">
-    <value>ឡុកចូល។</value>
+    <value>Logged In.</value>
   </data>
   <data name="Logged Out." xml:space="preserve">
-    <value>ឡុកចេញ។</value>
+    <value>Logged Out.</value>
   </data>
   <data name="New Message From {0}" xml:space="preserve">
-    <value>សារថ្មីមកពី {0}</value>
+    <value>New Message From {0}</value>
   </data>
   <data name="Send" xml:space="preserve">
     <value>ផ្ញើ</value>

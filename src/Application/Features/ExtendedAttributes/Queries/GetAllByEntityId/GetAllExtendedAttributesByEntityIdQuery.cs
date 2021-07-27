@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId
+namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId
 {
     public class GetAllExtendedAttributesByEntityIdQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<List<GetAllExtendedAttributesByEntityIdResponse<TId, TEntityId>>>>

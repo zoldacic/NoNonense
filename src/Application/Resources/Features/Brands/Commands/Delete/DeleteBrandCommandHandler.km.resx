@@ -121,9 +121,9 @@
     <value>ម៉ាកត្រូវបានលុប</value>
   </data>
   <data name="Brand Not Found!" xml:space="preserve">
-    <value>គ្មានទិន្នន័យម៉ាក!</value>
+    <value>Brand Not Found!</value>
   </data>
   <data name="Deletion Not Allowed" xml:space="preserve">
-    <value>ការលុបមិនត្រូវបានអនុញ្ញាត្ត</value>
+    <value>Deletion Not Allowed</value>
   </data>
 </root>

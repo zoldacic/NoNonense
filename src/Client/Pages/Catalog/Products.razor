@@ -1,7 +1,7 @@
 ﻿@page "/catalog/products"
 @attribute [Authorize(Policy = Permissions.Products.View)]
 @inject Microsoft.Extensions.Localization.IStringLocalizer<Products> _localizer
-@using BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged;
+@using NoNonense.Application.Features.Products.Queries.GetAllPaged;
 
 <style>
     .mud-table-container {

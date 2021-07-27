@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetProductImage
+﻿namespace NoNonense.Application.Features.Products.Queries.GetProductImage
 {
     public class GetProductImageResponse
     {

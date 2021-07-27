@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Migrations
+namespace NoNonense.Infrastructure.Migrations
 {
     public partial class initial : Migration
     {

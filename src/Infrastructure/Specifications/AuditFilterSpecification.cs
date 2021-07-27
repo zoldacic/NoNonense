@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Infrastructure.Models.Audit;
-using BlazorHero.CleanArchitecture.Application.Specifications.Base;
+﻿using NoNonense.Infrastructure.Models.Audit;
+using NoNonense.Application.Specifications.Base;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Specifications
+namespace NoNonense.Infrastructure.Specifications
 {
     public class AuditFilterSpecification : HeroSpecification<Audit>
     {

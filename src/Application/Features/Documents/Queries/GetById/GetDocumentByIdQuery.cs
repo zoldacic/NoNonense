@@ -1,12 +1,12 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetById
+namespace NoNonense.Application.Features.Documents.Queries.GetById
 {
     public class GetDocumentByIdQuery : IRequest<Result<GetDocumentByIdResponse>>
     {

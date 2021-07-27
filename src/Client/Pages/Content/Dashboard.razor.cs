@@ -5,10 +5,10 @@ using MudBlazor;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Dashboard;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using NoNonense.Client.Infrastructure.Managers.Dashboard;
+using NoNonense.Shared.Constants.Application;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Content
+namespace NoNonense.Client.Pages.Content
 {
     public partial class Dashboard
     {

@@ -1,11 +1,11 @@
 ﻿using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Application.Requests.Identity;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers
+namespace NoNonense.Server.Controllers
 {
     [Route("api/identity/roleClaim")]
     [ApiController]

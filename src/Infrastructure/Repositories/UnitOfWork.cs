@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
+﻿using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Domain.Contracts;
+using NoNonense.Infrastructure.Contexts;
 using LazyCache;
 using System;
 using System.Collections;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Repositories
+namespace NoNonense.Infrastructure.Repositories
 {
     public class UnitOfWork<TId> : IUnitOfWork<TId>
     {

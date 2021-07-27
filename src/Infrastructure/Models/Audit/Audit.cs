@@ -1,7 +1,7 @@
 ﻿using System;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using NoNonense.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Models.Audit
+namespace NoNonense.Infrastructure.Models.Audit
 {
     public class Audit : IEntity<int>
     {

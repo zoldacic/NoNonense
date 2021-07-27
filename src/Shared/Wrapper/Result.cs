@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Shared.Wrapper
+namespace NoNonense.Shared.Wrapper
 {
     public class Result : IResult
     {

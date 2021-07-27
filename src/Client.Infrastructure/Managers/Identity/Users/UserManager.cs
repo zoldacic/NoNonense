@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Requests.Identity;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Requests.Identity;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Client.Infrastructure.Extensions;
+using NoNonense.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Users
+namespace NoNonense.Client.Infrastructure.Managers.Identity.Users
 {
     public class UserManager : IUserManager
     {

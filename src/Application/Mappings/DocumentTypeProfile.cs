@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
+using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
+using NoNonense.Application.Features.DocumentTypes.Queries.GetById;
+using NoNonense.Domain.Entities.Misc;
 
-namespace BlazorHero.CleanArchitecture.Application.Mappings
+namespace NoNonense.Application.Mappings
 {
     public class DocumentTypeProfile : Profile
     {

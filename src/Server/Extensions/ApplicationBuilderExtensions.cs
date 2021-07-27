@@ -1,17 +1,17 @@
 ﻿using System.Globalization;
 using System.Linq;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Server.Hubs;
-using BlazorHero.CleanArchitecture.Server.Middlewares;
-using BlazorHero.CleanArchitecture.Shared.Constants.Localization;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Server.Hubs;
+using NoNonense.Server.Middlewares;
+using NoNonense.Shared.Constants.Localization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using NoNonense.Shared.Constants.Application;
 
-namespace BlazorHero.CleanArchitecture.Server.Extensions
+namespace NoNonense.Server.Extensions
 {
     internal static class ApplicationBuilderExtensions
     {

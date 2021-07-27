@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Requests;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Requests;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using System;
 using System.ComponentModel.DataAnnotations;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit
+namespace NoNonense.Application.Features.Documents.Commands.AddEdit
 {
     public partial class AddEditDocumentCommand : IRequest<Result<int>>
     {

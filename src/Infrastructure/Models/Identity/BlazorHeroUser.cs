@@ -1,12 +1,12 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using NoNonense.Domain.Contracts;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Application.Models.Chat;
+using NoNonense.Application.Interfaces.Chat;
+using NoNonense.Application.Models.Chat;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Models.Identity
+namespace NoNonense.Infrastructure.Models.Identity
 {
     public class BlazorHeroUser : IdentityUser<string>, IChatUser, IAuditableEntity<string>
     {

@@ -1,18 +1,18 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Identity;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services.Identity;
+using NoNonense.Domain.Entities.Catalog;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+using NoNonense.Domain.Entities.ExtendedAttributes;
+using NoNonense.Domain.Entities.Misc;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Dashboards.Queries.GetData
+namespace NoNonense.Application.Features.Dashboards.Queries.GetData
 {
     public class GetDashboardDataQuery : IRequest<Result<DashboardDataResponse>>
     {

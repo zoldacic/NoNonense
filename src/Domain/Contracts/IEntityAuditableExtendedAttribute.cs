@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Domain.Contracts
+﻿namespace NoNonense.Domain.Contracts
 {
     public interface IEntityAuditableExtendedAttribute<TId, TEntityId, TEntity>
         : IEntityExtendedAttribute<TId, TEntityId, TEntity>, IAuditableEntity<TId>

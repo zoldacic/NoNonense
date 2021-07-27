@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.DocumentTypes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
+using NoNonense.Application.Features.DocumentTypes.Commands.Delete;
+using NoNonense.Application.Features.DocumentTypes.Queries.Export;
+using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
+using NoNonense.Application.Features.DocumentTypes.Queries.GetById;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.Misc
+namespace NoNonense.Server.Controllers.Utilities.Misc
 {
     [Route("api/[controller]")]
     [ApiController]

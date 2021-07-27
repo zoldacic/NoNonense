@@ -2,15 +2,15 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Contracts;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.Delete
+namespace NoNonense.Application.Features.ExtendedAttributes.Commands.Delete
 {
     internal class DeleteExtendedAttributeCommandLocalization
     {

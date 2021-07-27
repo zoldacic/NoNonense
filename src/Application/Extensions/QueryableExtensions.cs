@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Exceptions;
-using BlazorHero.CleanArchitecture.Application.Specifications.Base;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Exceptions;
+using NoNonense.Application.Specifications.Base;
+using NoNonense.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using NoNonense.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Application.Extensions
+namespace NoNonense.Application.Extensions
 {
     public static class QueryableExtensions
     {

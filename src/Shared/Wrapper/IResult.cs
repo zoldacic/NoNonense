@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Shared.Wrapper
+namespace NoNonense.Shared.Wrapper
 {
     public interface IResult
     {

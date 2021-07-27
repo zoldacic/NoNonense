@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Server.Managers.Preferences;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Server.Managers.Preferences;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities
+namespace NoNonense.Server.Controllers.Utilities
 {
     [Route("api/[controller]")]
     [ApiController]

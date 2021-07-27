@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Domain.Entities.ExtendedAttributes;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Base;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NoNonense.Domain.Entities.ExtendedAttributes;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Base;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Misc
+namespace NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Misc
 {
     public class DocumentExtendedAttributesController : ExtendedAttributesController<int, int, Document, DocumentExtendedAttribute>
     {

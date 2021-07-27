@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Domain.Contracts;
+﻿using NoNonense.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Domain.Entities.Catalog
+namespace NoNonense.Domain.Entities.Catalog
 {
     public class Brand : AuditableEntity<int>
     {

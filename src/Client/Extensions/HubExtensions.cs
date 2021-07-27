@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+using NoNonense.Shared.Constants.Application;
 
-namespace BlazorHero.CleanArchitecture.Client.Extensions
+namespace NoNonense.Client.Extensions
 {
     public static class HubExtensions
     {

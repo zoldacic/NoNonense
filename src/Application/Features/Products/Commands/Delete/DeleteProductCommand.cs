@@ -1,12 +1,12 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Entities.Catalog;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Products.Commands.Delete
+namespace NoNonense.Application.Features.Products.Commands.Delete
 {
     public class DeleteProductCommand : IRequest<Result<int>>
     {

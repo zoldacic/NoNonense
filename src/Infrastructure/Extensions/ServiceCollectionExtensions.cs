@@ -2,18 +2,18 @@
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Storage.Provider;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
-using BlazorHero.CleanArchitecture.Application.Serialization.JsonConverters;
-using BlazorHero.CleanArchitecture.Infrastructure.Repositories;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Storage;
-using BlazorHero.CleanArchitecture.Application.Serialization.Options;
-using BlazorHero.CleanArchitecture.Infrastructure.Services.Storage.Provider;
-using BlazorHero.CleanArchitecture.Application.Serialization.Serializers;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services.Storage;
+using NoNonense.Application.Interfaces.Services.Storage.Provider;
+using NoNonense.Application.Interfaces.Serialization.Serializers;
+using NoNonense.Application.Serialization.JsonConverters;
+using NoNonense.Infrastructure.Repositories;
+using NoNonense.Infrastructure.Services.Storage;
+using NoNonense.Application.Serialization.Options;
+using NoNonense.Infrastructure.Services.Storage.Provider;
+using NoNonense.Application.Serialization.Serializers;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Extensions
+namespace NoNonense.Infrastructure.Extensions
 {
     public static class ServiceCollectionExtensions
     {

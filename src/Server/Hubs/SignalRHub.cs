@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Models.Chat;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
+using NoNonense.Application.Interfaces.Chat;
 
-namespace BlazorHero.CleanArchitecture.Server.Hubs
+namespace NoNonense.Server.Hubs
 {
     public class SignalRHub : Hub
     {

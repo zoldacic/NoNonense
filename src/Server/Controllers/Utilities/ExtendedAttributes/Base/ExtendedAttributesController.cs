@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NoNonense.Application.Features.ExtendedAttributes.Commands.Delete;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetById;
+using NoNonense.Domain.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Utilities.ExtendedAttributes.Base
+namespace NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Base
 {
     /// <summary>
     /// Abstract Extended Attributes Controller Class

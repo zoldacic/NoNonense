@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlazorHero.CleanArchitecture.Domain.Contracts
+namespace NoNonense.Domain.Contracts
 {
     public interface IAuditableEntity<TId> : IAuditableEntity, IEntity<TId>
     {

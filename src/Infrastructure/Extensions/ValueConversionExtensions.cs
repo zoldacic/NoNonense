@@ -1,10 +1,10 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Serialization.Serializers;
+﻿using NoNonense.Application.Interfaces.Serialization.Serializers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Extensions
+namespace NoNonense.Infrastructure.Extensions
 {
     public static class ValueConversionExtensions
     {

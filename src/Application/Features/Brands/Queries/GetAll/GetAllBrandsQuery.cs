@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Domain.Entities.Catalog;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Domain.Entities.Catalog;
+using NoNonense.Shared.Constants.Application;
+using NoNonense.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 using System;
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll
+namespace NoNonense.Application.Features.Brands.Queries.GetAll
 {
     public class GetAllBrandsQuery : IRequest<Result<List<GetAllBrandsResponse>>>
     {

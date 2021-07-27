@@ -3,13 +3,13 @@ using System.Collections;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Domain.Contracts;
+using NoNonense.Infrastructure.Contexts;
 using LazyCache;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Repositories
+namespace NoNonense.Infrastructure.Repositories
 {
     public class ExtendedAttributeUnitOfWork<TId, TEntityId, TEntity> : IExtendedAttributeUnitOfWork<TId, TEntityId, TEntity> where TEntity : AuditableEntity<TEntityId>
     {

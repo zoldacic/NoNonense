@@ -1,9 +1,9 @@
-﻿using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Repositories;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Specifications.Misc;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Extensions;
+using NoNonense.Application.Interfaces.Repositories;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Specifications.Misc;
+using NoNonense.Domain.Entities.Misc;
+using NoNonense.Shared.Wrapper;
 using MediatR;
 using System;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetAll
+namespace NoNonense.Application.Features.Documents.Queries.GetAll
 {
     public class GetAllDocumentsQuery : IRequest<PaginatedResult<GetAllDocumentsResponse>>
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace BlazorHero.CleanArchitecture.Server.Middlewares
+namespace NoNonense.Server.Middlewares
 {
     public class RequestCultureMiddleware
     {

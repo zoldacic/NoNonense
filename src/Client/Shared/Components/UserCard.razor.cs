@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Client.Extensions;
+﻿using NoNonense.Client.Extensions;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Shared.Components
+namespace NoNonense.Client.Shared.Components
 {
     public partial class UserCard
     {

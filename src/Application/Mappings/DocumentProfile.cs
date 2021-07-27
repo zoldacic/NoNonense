@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Documents.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Entities.Misc;
+using NoNonense.Application.Features.Documents.Commands.AddEdit;
+using NoNonense.Application.Features.Documents.Queries.GetById;
+using NoNonense.Domain.Entities.Misc;
 
-namespace BlazorHero.CleanArchitecture.Application.Mappings
+namespace NoNonense.Application.Mappings
 {
     public class DocumentProfile : Profile
     {

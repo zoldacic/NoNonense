@@ -1,11 +1,11 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services.Account;
-using BlazorHero.CleanArchitecture.Application.Requests.Identity;
+﻿using NoNonense.Application.Interfaces.Services;
+using NoNonense.Application.Interfaces.Services.Account;
+using NoNonense.Application.Requests.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Server.Controllers.Identity
+namespace NoNonense.Server.Controllers.Identity
 {
     [Authorize]
     [Route("api/identity/account")]

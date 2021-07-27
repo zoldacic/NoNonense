@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Models.Chat;
-using BlazorHero.CleanArchitecture.Application.Responses.Identity;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Models.Chat;
+using NoNonense.Application.Responses.Identity;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.SignalR.Client;
@@ -11,11 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Chat;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Communication;
-using BlazorHero.CleanArchitecture.Shared.Constants.Storage;
+using NoNonense.Application.Interfaces.Chat;
+using NoNonense.Client.Infrastructure.Managers.Communication;
+using NoNonense.Shared.Constants.Storage;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Communication
+namespace NoNonense.Client.Pages.Communication
 {
     public partial class Chat
     {

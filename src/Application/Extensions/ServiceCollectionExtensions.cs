@@ -3,16 +3,16 @@ using System.Linq;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Commands.Delete;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.Export;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using BlazorHero.CleanArchitecture.Application.Features.ExtendedAttributes.Queries.GetById;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NoNonense.Application.Features.ExtendedAttributes.Commands.Delete;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NoNonense.Application.Features.ExtendedAttributes.Queries.GetById;
+using NoNonense.Domain.Contracts;
+using NoNonense.Shared.Wrapper;
 
-namespace BlazorHero.CleanArchitecture.Application.Extensions
+namespace NoNonense.Application.Extensions
 {
     public static class ServiceCollectionExtensions
     {

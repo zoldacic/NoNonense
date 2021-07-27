@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Shared.Constants.Localization
+﻿namespace NoNonense.Shared.Constants.Localization
 {
     public class LanguageCode
     {

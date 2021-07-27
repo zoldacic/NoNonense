@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
+﻿using NoNonense.Application.Interfaces.Services;
 using System;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Shared.Services
+namespace NoNonense.Infrastructure.Shared.Services
 {
     public class SystemDateTimeService : IDateTimeService
     {

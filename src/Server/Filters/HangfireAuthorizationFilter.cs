@@ -1,6 +1,6 @@
 ﻿using Hangfire.Dashboard;
 
-namespace BlazorHero.CleanArchitecture.Server.Filters
+namespace NoNonense.Server.Filters
 {
     public class HangfireAuthorizationFilter : IDashboardAuthorizationFilter
     {

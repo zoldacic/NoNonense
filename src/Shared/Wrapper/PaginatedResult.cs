@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Shared.Wrapper
+namespace NoNonense.Shared.Wrapper
 {
     public class PaginatedResult<T> : Result
     {

@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Shared.Constants.User
+﻿namespace NoNonense.Shared.Constants.User
 {
     public static class UserConstants
     {

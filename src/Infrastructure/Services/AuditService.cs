@@ -1,20 +1,20 @@
 ﻿using AutoMapper;
-using BlazorHero.CleanArchitecture.Application.Interfaces.Services;
-using BlazorHero.CleanArchitecture.Infrastructure.Models.Audit;
-using BlazorHero.CleanArchitecture.Application.Responses.Audit;
-using BlazorHero.CleanArchitecture.Infrastructure.Contexts;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+using NoNonense.Application.Interfaces.Services;
+using NoNonense.Infrastructure.Models.Audit;
+using NoNonense.Application.Responses.Audit;
+using NoNonense.Infrastructure.Contexts;
+using NoNonense.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Extensions;
-using BlazorHero.CleanArchitecture.Infrastructure.Specifications;
+using NoNonense.Application.Extensions;
+using NoNonense.Infrastructure.Specifications;
 using Microsoft.Extensions.Localization;
 
-namespace BlazorHero.CleanArchitecture.Infrastructure.Services
+namespace NoNonense.Infrastructure.Services
 {
     public class AuditService : IAuditService
     {

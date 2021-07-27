@@ -1,4 +1,4 @@
-﻿namespace BlazorHero.CleanArchitecture.Domain.Enums
+﻿namespace NoNonense.Domain.Enums
 {
     public enum EntityExtendedAttributeType : byte
     {

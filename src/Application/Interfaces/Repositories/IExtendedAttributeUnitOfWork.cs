@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Domain.Contracts;
+using NoNonense.Domain.Contracts;
 
-namespace BlazorHero.CleanArchitecture.Application.Interfaces.Repositories
+namespace NoNonense.Application.Interfaces.Repositories
 {
     public interface IExtendedAttributeUnitOfWork<TId, TEntityId, TEntity> : IDisposable where TEntity : AuditableEntity<TEntityId>
     {

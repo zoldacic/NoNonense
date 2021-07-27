@@ -1,8 +1,8 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Brands.Queries.GetAll;
-using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Requests;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Features.Brands.Queries.GetAll;
+using NoNonense.Application.Features.Products.Commands.AddEdit;
+using NoNonense.Application.Requests;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.SignalR.Client;
@@ -13,10 +13,10 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Brand;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Product;
+using NoNonense.Client.Infrastructure.Managers.Catalog.Brand;
+using NoNonense.Client.Infrastructure.Managers.Catalog.Product;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
+namespace NoNonense.Client.Pages.Catalog
 {
     public partial class AddEditProductModal
     {

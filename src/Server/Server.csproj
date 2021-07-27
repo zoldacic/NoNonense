@@ -2,23 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Server</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Server</AssemblyName>
+    <RootNamespace>NoNonense.Server</RootNamespace>
+    <AssemblyName>NoNonense.Server</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
-    <DocumentationFile>BlazorHero.CleanArchitecture.Server.xml</DocumentationFile>
+    <DocumentationFile>NoNonense.Server.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
     <UserSecretsId>aa8b7360-671b-4ab2-99b0-7df28629ef3d</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Remove="Permission\**" />
-    <Content Remove="Permission\**" />
-    <EmbeddedResource Remove="Permission\**" />
-    <None Remove="Permission\**" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.2.3" />
     <PackageReference Include="Hangfire" Version="1.7.23" />

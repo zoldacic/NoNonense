@@ -1,4 +1,4 @@
-﻿using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Identity.Authentication;
+﻿using NoNonense.Client.Infrastructure.Managers.Identity.Authentication;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 using Toolbelt.Blazor;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Interceptors
+namespace NoNonense.Client.Infrastructure.Managers.Interceptors
 {
     public class HttpInterceptorManager : IHttpInterceptorManager
     {

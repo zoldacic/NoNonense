@@ -1,11 +1,11 @@
-﻿using BlazorHero.CleanArchitecture.Application.Responses.Audit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Responses.Audit;
+using NoNonense.Client.Infrastructure.Extensions;
+using NoNonense.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Audit
+namespace NoNonense.Client.Infrastructure.Managers.Audit
 {
     public class AuditManager : IAuditManager
     {

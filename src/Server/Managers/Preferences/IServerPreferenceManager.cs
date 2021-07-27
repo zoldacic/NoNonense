@@ -1,6 +1,6 @@
-﻿using BlazorHero.CleanArchitecture.Shared.Managers;
+﻿using NoNonense.Shared.Managers;
 
-namespace BlazorHero.CleanArchitecture.Server.Managers.Preferences
+namespace NoNonense.Server.Managers.Preferences
 {
     public interface IServerPreferenceManager : IPreferenceManager
     {

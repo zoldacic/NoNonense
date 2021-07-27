@@ -1,13 +1,13 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged;
-using BlazorHero.CleanArchitecture.Application.Requests.Catalog;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Wrapper;
+﻿using NoNonense.Application.Features.Products.Commands.AddEdit;
+using NoNonense.Application.Features.Products.Queries.GetAllPaged;
+using NoNonense.Application.Requests.Catalog;
+using NoNonense.Client.Infrastructure.Extensions;
+using NoNonense.Shared.Wrapper;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Product
+namespace NoNonense.Client.Infrastructure.Managers.Catalog.Product
 {
     public class ProductManager : IProductManager
     {

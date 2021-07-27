@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>BlazorHero.CleanArchitecture.Client.Infrastructure</RootNamespace>
-    <AssemblyName>BlazorHero.CleanArchitecture.Client.Infrastructure</AssemblyName>
+    <RootNamespace>NoNonense.Client.Infrastructure</RootNamespace>
+    <AssemblyName>NoNonense.Client.Infrastructure</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />

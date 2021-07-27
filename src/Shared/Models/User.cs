@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BlazorHero.CleanArchitecture.Shared.Models
+namespace NoNonense.Shared.Models
 {
     public class User
     {

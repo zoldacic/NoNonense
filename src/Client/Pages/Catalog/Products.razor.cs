@@ -1,7 +1,7 @@
-﻿using BlazorHero.CleanArchitecture.Application.Features.Products.Queries.GetAllPaged;
-using BlazorHero.CleanArchitecture.Application.Requests.Catalog;
-using BlazorHero.CleanArchitecture.Client.Extensions;
-using BlazorHero.CleanArchitecture.Shared.Constants.Application;
+﻿using NoNonense.Application.Features.Products.Queries.GetAllPaged;
+using NoNonense.Application.Requests.Catalog;
+using NoNonense.Client.Extensions;
+using NoNonense.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
@@ -11,12 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using BlazorHero.CleanArchitecture.Application.Features.Products.Commands.AddEdit;
-using BlazorHero.CleanArchitecture.Client.Infrastructure.Managers.Catalog.Product;
-using BlazorHero.CleanArchitecture.Shared.Constants.Permission;
+using NoNonense.Application.Features.Products.Commands.AddEdit;
+using NoNonense.Client.Infrastructure.Managers.Catalog.Product;
+using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace BlazorHero.CleanArchitecture.Client.Pages.Catalog
+namespace NoNonense.Client.Pages.Catalog
 {
     public partial class Products
     {

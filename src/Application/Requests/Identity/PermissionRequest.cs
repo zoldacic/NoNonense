@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BlazorHero.CleanArchitecture.Application.Requests.Identity
+namespace NoNonense.Application.Requests.Identity
 {
     public class PermissionRequest
     {
