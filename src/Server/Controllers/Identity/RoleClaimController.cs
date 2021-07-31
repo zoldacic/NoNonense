@@ -19,7 +19,7 @@ namespace NoNonense.Server.Controllers
         }
 
         /// <summary>
-        /// Get All Role Claims(e.g. Product Create Permission)
+        /// Get All Role Claims(e.g. Note Create Permission)
         /// </summary>
         /// <returns>Status 200 OK</returns>
         [Authorize(Policy = Permissions.RoleClaims.View)]

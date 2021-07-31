@@ -123,7 +123,7 @@
   <data name="Aug" xml:space="preserve">
     <value>Авг</value>
   </data>
-  <data name="Brands" xml:space="preserve">
+  <data name="Tags" xml:space="preserve">
     <value>Брендов</value>
   </data>
   <data name="Charts comming soon ish..." xml:space="preserve">
@@ -168,7 +168,7 @@
   <data name="Oct" xml:space="preserve">
     <value>Окт</value>
   </data>
-  <data name="Products" xml:space="preserve">
+  <data name="Notes" xml:space="preserve">
     <value>Продуктов</value>
   </data>
   <data name="Quick Insights." xml:space="preserve">

@@ -5,18 +5,18 @@ using System.Threading.Tasks;
 
 namespace NoNonense.Infrastructure.Repositories
 {
-    public class ProductRepository : IProductRepository
+    public class NoteRepository : INoteRepository
     {
-        private readonly IRepositoryAsync<Product, int> _repository;
+        private readonly IRepositoryAsync<Note, int> _repository;
 
-        public ProductRepository(IRepositoryAsync<Product, int> repository)
+        public NoteRepository(IRepositoryAsync<Note, int> repository)
         {
             _repository = repository;
         }
 
-        public async Task<bool> IsBrandUsed(int brandId)
+        public async Task<bool> IsTagUsed(int tagId)
         {
-            return await _repository.Entities.AnyAsync(b => b.BrandId == brandId);
+            return await _repository.Entities.AnyAsync(b => b.TagId == tagId);
         }
     }
 }

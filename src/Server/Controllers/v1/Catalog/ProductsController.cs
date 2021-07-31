@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Features.Products.Commands.AddEdit;
-using NoNonense.Application.Features.Products.Commands.Delete;
-using NoNonense.Application.Features.Products.Queries.Export;
-using NoNonense.Application.Features.Products.Queries.GetAllPaged;
-using NoNonense.Application.Features.Products.Queries.GetProductImage;
+﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
+using NoNonense.Application.Features.Notes.Commands.Delete;
+using NoNonense.Application.Features.Notes.Queries.Export;
+using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
+using NoNonense.Application.Features.Notes.Queries.GetNoteImage;
 using NoNonense.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,71 +10,71 @@ using System.Threading.Tasks;
 
 namespace NoNonense.Server.Controllers.v1.Catalog
 {
-    public class ProductsController : BaseApiController<ProductsController>
+    public class NotesController : BaseApiController<NotesController>
     {
         /// <summary>
-        /// Get All Products
+        /// Get All Notes
         /// </summary>
         /// <param name="pageNumber"></param>
         /// <param name="pageSize"></param>
         /// <param name="searchString"></param>
         /// <param name="orderBy"></param>
         /// <returns>Status 200 OK</returns>
-        [Authorize(Policy = Permissions.Products.View)]
+        [Authorize(Policy = Permissions.Notes.View)]
         [HttpGet]
         public async Task<IActionResult> GetAll(int pageNumber, int pageSize, string searchString, string orderBy = null)
         {
-            var products = await _mediator.Send(new GetAllProductsQuery(pageNumber, pageSize, searchString, orderBy));
-            return Ok(products);
+            var notes = await _mediator.Send(new GetAllNotesQuery(pageNumber, pageSize, searchString, orderBy));
+            return Ok(notes);
         }
 
         /// <summary>
-        /// Get a Product Image by Id
+        /// Get a Note Image by Id
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Status 200 OK</returns>
-        [Authorize(Policy = Permissions.Products.View)]
+        [Authorize(Policy = Permissions.Notes.View)]
         [HttpGet("image/{id}")]
-        public async Task<IActionResult> GetProductImageAsync(int id)
+        public async Task<IActionResult> GetNoteImageAsync(int id)
         {
-            var result = await _mediator.Send(new GetProductImageQuery(id));
+            var result = await _mediator.Send(new GetNoteImageQuery(id));
             return Ok(result);
         }
 
         /// <summary>
-        /// Add/Edit a Product
+        /// Add/Edit a Note
         /// </summary>
         /// <param name="command"></param>
         /// <returns>Status 200 OK</returns>
-        [Authorize(Policy = Permissions.Products.Create)]
+        [Authorize(Policy = Permissions.Notes.Create)]
         [HttpPost]
-        public async Task<IActionResult> Post(AddEditProductCommand command)
+        public async Task<IActionResult> Post(AddEditNoteCommand command)
         {
             return Ok(await _mediator.Send(command));
         }
 
         /// <summary>
-        /// Delete a Product
+        /// Delete a Note
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Status 200 OK response</returns>
-        [Authorize(Policy = Permissions.Products.Delete)]
+        [Authorize(Policy = Permissions.Notes.Delete)]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            return Ok(await _mediator.Send(new DeleteProductCommand { Id = id }));
+            return Ok(await _mediator.Send(new DeleteNoteCommand { Id = id }));
         }
 
         /// <summary>
-        /// Search Products and Export to Excel
+        /// Search Notes and Export to Excel
         /// </summary>
         /// <param name="searchString"></param>
         /// <returns>Status 200 OK</returns>
-        [Authorize(Policy = Permissions.Products.Export)]
+        [Authorize(Policy = Permissions.Notes.Export)]
         [HttpGet("export")]
         public async Task<IActionResult> Export(string searchString = "")
         {
-            return Ok(await _mediator.Send(new ExportProductsQuery(searchString)));
+            return Ok(await _mediator.Send(new ExportNotesQuery(searchString)));
         }
     }
 }

@@ -6,24 +6,24 @@ namespace NoNonense.Shared.Constants.Permission
 {
     public static class Permissions
     {
-        public static class Products
+        public static class Notes
         {
-            public const string View = "Permissions.Products.View";
-            public const string Create = "Permissions.Products.Create";
-            public const string Edit = "Permissions.Products.Edit";
-            public const string Delete = "Permissions.Products.Delete";
-            public const string Export = "Permissions.Products.Export";
-            public const string Search = "Permissions.Products.Search";
+            public const string View = "Permissions.Notes.View";
+            public const string Create = "Permissions.Notes.Create";
+            public const string Edit = "Permissions.Notes.Edit";
+            public const string Delete = "Permissions.Notes.Delete";
+            public const string Export = "Permissions.Notes.Export";
+            public const string Search = "Permissions.Notes.Search";
         }
 
-        public static class Brands
+        public static class Tags
         {
-            public const string View = "Permissions.Brands.View";
-            public const string Create = "Permissions.Brands.Create";
-            public const string Edit = "Permissions.Brands.Edit";
-            public const string Delete = "Permissions.Brands.Delete";
-            public const string Export = "Permissions.Brands.Export";
-            public const string Search = "Permissions.Brands.Search";
+            public const string View = "Permissions.Tags.View";
+            public const string Create = "Permissions.Tags.Create";
+            public const string Edit = "Permissions.Tags.Edit";
+            public const string Delete = "Permissions.Tags.Delete";
+            public const string Export = "Permissions.Tags.Export";
+            public const string Search = "Permissions.Tags.Search";
         }
 
         public static class Documents

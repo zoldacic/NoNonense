@@ -2,7 +2,7 @@
 
 namespace NoNonense.Domain.Entities.Catalog
 {
-    public class Brand : AuditableEntity<int>
+    public class Tag : AuditableEntity<int>
     {
         public string Name { get; set; }
         public string Description { get; set; }

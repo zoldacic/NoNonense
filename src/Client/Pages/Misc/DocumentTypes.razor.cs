@@ -157,14 +157,14 @@ namespace NoNonense.Client.Pages.Misc
             await GetDocumentTypesAsync();
         }
 
-        private bool Search(GetAllDocumentTypesResponse brand)
+        private bool Search(GetAllDocumentTypesResponse tag)
         {
             if (string.IsNullOrWhiteSpace(_searchString)) return true;
-            if (brand.Name?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true)
+            if (tag.Name?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true)
             {
                 return true;
             }
-            if (brand.Description?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true)
+            if (tag.Description?.Contains(_searchString, StringComparison.OrdinalIgnoreCase) == true)
             {
                 return true;
             }

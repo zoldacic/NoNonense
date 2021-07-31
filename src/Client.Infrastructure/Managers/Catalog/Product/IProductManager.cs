@@ -1,18 +1,18 @@
-﻿using NoNonense.Application.Features.Products.Commands.AddEdit;
-using NoNonense.Application.Features.Products.Queries.GetAllPaged;
+﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
+using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
 using NoNonense.Application.Requests.Catalog;
 using NoNonense.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Product
+namespace NoNonense.Client.Infrastructure.Managers.Catalog.Note
 {
-    public interface IProductManager : IManager
+    public interface INoteManager : IManager
     {
-        Task<PaginatedResult<GetAllPagedProductsResponse>> GetProductsAsync(GetAllPagedProductsRequest request);
+        Task<PaginatedResult<GetAllPagedNotesResponse>> GetNotesAsync(GetAllPagedNotesRequest request);
 
-        Task<IResult<string>> GetProductImageAsync(int id);
+        Task<IResult<string>> GetNoteImageAsync(int id);
 
-        Task<IResult<int>> SaveAsync(AddEditProductCommand request);
+        Task<IResult<int>> SaveAsync(AddEditNoteCommand request);
 
         Task<IResult<int>> DeleteAsync(int id);
 

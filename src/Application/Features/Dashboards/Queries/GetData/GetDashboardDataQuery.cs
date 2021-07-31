@@ -38,8 +38,8 @@ namespace NoNonense.Application.Features.Dashboards.Queries.GetData
         {
             var response = new DashboardDataResponse
             {
-                ProductCount = await _unitOfWork.Repository<Product>().Entities.CountAsync(cancellationToken),
-                BrandCount = await _unitOfWork.Repository<Brand>().Entities.CountAsync(cancellationToken),
+                NoteCount = await _unitOfWork.Repository<Note>().Entities.CountAsync(cancellationToken),
+                TagCount = await _unitOfWork.Repository<Tag>().Entities.CountAsync(cancellationToken),
                 DocumentCount = await _unitOfWork.Repository<Document>().Entities.CountAsync(cancellationToken),
                 DocumentTypeCount = await _unitOfWork.Repository<DocumentType>().Entities.CountAsync(cancellationToken),
                 DocumentExtendedAttributeCount = await _unitOfWork.Repository<DocumentExtendedAttribute>().Entities.CountAsync(cancellationToken),
@@ -48,8 +48,8 @@ namespace NoNonense.Application.Features.Dashboards.Queries.GetData
             };
 
             var selectedYear = DateTime.Now.Year;
-            double[] productsFigure = new double[13];
-            double[] brandsFigure = new double[13];
+            double[] notesFigure = new double[13];
+            double[] tagsFigure = new double[13];
             double[] documentsFigure = new double[13];
             double[] documentTypesFigure = new double[13];
             double[] documentExtendedAttributesFigure = new double[13];
@@ -59,15 +59,15 @@ namespace NoNonense.Application.Features.Dashboards.Queries.GetData
                 var filterStartDate = new DateTime(selectedYear, month, 01);
                 var filterEndDate = new DateTime(selectedYear, month, DateTime.DaysInMonth(selectedYear, month), 23, 59, 59); // Monthly Based
 
-                productsFigure[i - 1] = await _unitOfWork.Repository<Product>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
-                brandsFigure[i - 1] = await _unitOfWork.Repository<Brand>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
+                notesFigure[i - 1] = await _unitOfWork.Repository<Note>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
+                tagsFigure[i - 1] = await _unitOfWork.Repository<Tag>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
                 documentsFigure[i - 1] = await _unitOfWork.Repository<Document>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
                 documentTypesFigure[i - 1] = await _unitOfWork.Repository<DocumentType>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
                 documentExtendedAttributesFigure[i - 1] = await _unitOfWork.Repository<DocumentExtendedAttribute>().Entities.Where(x => x.CreatedOn >= filterStartDate && x.CreatedOn <= filterEndDate).CountAsync(cancellationToken);
             }
 
-            response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Products"], Data = productsFigure });
-            response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Brands"], Data = brandsFigure });
+            response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Notes"], Data = notesFigure });
+            response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Tags"], Data = tagsFigure });
             response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Documents"], Data = documentsFigure });
             response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Document Types"], Data = documentTypesFigure });
             response.DataEnterBarChart.Add(new ChartSeries { Name = _localizer["Document Extended Attributes"], Data = documentExtendedAttributesFigure });

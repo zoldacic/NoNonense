@@ -1,5 +1,5 @@
-﻿using NoNonense.Application.Features.Products.Commands.AddEdit;
-using NoNonense.Application.Features.Products.Queries.GetAllPaged;
+﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
+using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
 using NoNonense.Application.Requests.Catalog;
 using NoNonense.Client.Infrastructure.Extensions;
 using NoNonense.Shared.Wrapper;
@@ -7,46 +7,46 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Product
+namespace NoNonense.Client.Infrastructure.Managers.Catalog.Note
 {
-    public class ProductManager : IProductManager
+    public class NoteManager : INoteManager
     {
         private readonly HttpClient _httpClient;
 
-        public ProductManager(HttpClient httpClient)
+        public NoteManager(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
         public async Task<IResult<int>> DeleteAsync(int id)
         {
-            var response = await _httpClient.DeleteAsync($"{Routes.ProductsEndpoints.Delete}/{id}");
+            var response = await _httpClient.DeleteAsync($"{Routes.NotesEndpoints.Delete}/{id}");
             return await response.ToResult<int>();
         }
 
         public async Task<IResult<string>> ExportToExcelAsync(string searchString = "")
         {
             var response = await _httpClient.GetAsync(string.IsNullOrWhiteSpace(searchString)
-                ? Routes.ProductsEndpoints.Export
-                : Routes.ProductsEndpoints.ExportFiltered(searchString));
+                ? Routes.NotesEndpoints.Export
+                : Routes.NotesEndpoints.ExportFiltered(searchString));
             return await response.ToResult<string>();
         }
 
-        public async Task<IResult<string>> GetProductImageAsync(int id)
+        public async Task<IResult<string>> GetNoteImageAsync(int id)
         {
-            var response = await _httpClient.GetAsync(Routes.ProductsEndpoints.GetProductImage(id));
+            var response = await _httpClient.GetAsync(Routes.NotesEndpoints.GetNoteImage(id));
             return await response.ToResult<string>();
         }
 
-        public async Task<PaginatedResult<GetAllPagedProductsResponse>> GetProductsAsync(GetAllPagedProductsRequest request)
+        public async Task<PaginatedResult<GetAllPagedNotesResponse>> GetNotesAsync(GetAllPagedNotesRequest request)
         {
-            var response = await _httpClient.GetAsync(Routes.ProductsEndpoints.GetAllPaged(request.PageNumber, request.PageSize, request.SearchString, request.Orderby));
-            return await response.ToPaginatedResult<GetAllPagedProductsResponse>();
+            var response = await _httpClient.GetAsync(Routes.NotesEndpoints.GetAllPaged(request.PageNumber, request.PageSize, request.SearchString, request.Orderby));
+            return await response.ToPaginatedResult<GetAllPagedNotesResponse>();
         }
 
-        public async Task<IResult<int>> SaveAsync(AddEditProductCommand request)
+        public async Task<IResult<int>> SaveAsync(AddEditNoteCommand request)
         {
-            var response = await _httpClient.PostAsJsonAsync(Routes.ProductsEndpoints.Save, request);
+            var response = await _httpClient.PostAsJsonAsync(Routes.NotesEndpoints.Save, request);
             return await response.ToResult<int>();
         }
     }

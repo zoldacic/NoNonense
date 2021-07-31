@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NoNonense.Domain.Entities.Catalog
 {
-    public class Product : AuditableEntity<int>
+    public class Note : AuditableEntity<int>
     {
         public string Name { get; set; }
         public string Barcode { get; set; }
@@ -13,7 +13,7 @@ namespace NoNonense.Domain.Entities.Catalog
 
         public string Description { get; set; }
         public decimal Rate { get; set; }
-        public int BrandId { get; set; }
-        public virtual Brand Brand { get; set; }
+        public int TagId { get; set; }
+        public virtual Tag Tag { get; set; }
     }
 }

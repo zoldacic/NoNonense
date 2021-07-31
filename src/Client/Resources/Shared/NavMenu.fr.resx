@@ -123,8 +123,8 @@
   <data name="Administrator" xml:space="preserve">
     <value>Administrateur</value>
   </data>
-  <data name="Brands" xml:space="preserve">
-    <value>Brands</value>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
   </data>
   <data name="Catalog Management" xml:space="preserve">
     <value>Catalog Management</value>
@@ -150,8 +150,8 @@
   <data name="Personal" xml:space="preserve">
     <value>Renseignements personnels</value>
   </data>
-  <data name="Products" xml:space="preserve">
-    <value>Products</value>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
   </data>
   <data name="Resources" xml:space="preserve">
     <value>Ressources</value>

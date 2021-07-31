@@ -123,8 +123,8 @@
   <data name="Aug" xml:space="preserve">
     <value>Aug</value>
   </data>
-  <data name="Brands" xml:space="preserve">
-    <value>Brands</value>
+  <data name="Tags" xml:space="preserve">
+    <value>Tags</value>
   </data>
   <data name="Charts comming soon ish..." xml:space="preserve">
     <value>Charts comming soon ish...</value>
@@ -168,8 +168,8 @@
   <data name="Oct" xml:space="preserve">
     <value>Oct</value>
   </data>
-  <data name="Products" xml:space="preserve">
-    <value>Products</value>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
   </data>
   <data name="Quick Insights." xml:space="preserve">
     <value>Quick Insights.</value>

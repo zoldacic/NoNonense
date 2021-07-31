@@ -3,11 +3,11 @@ using NoNonense.Domain.Entities.Catalog;
 
 namespace NoNonense.Infrastructure.Repositories
 {
-    public class BrandRepository : IBrandRepository
+    public class TagRepository : ITagRepository
     {
-        private readonly IRepositoryAsync<Brand, int> _repository;
+        private readonly IRepositoryAsync<Tag, int> _repository;
 
-        public BrandRepository(IRepositoryAsync<Brand, int> repository)
+        public TagRepository(IRepositoryAsync<Tag, int> repository)
         {
             _repository = repository;
         }

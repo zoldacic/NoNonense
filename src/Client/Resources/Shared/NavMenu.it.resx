@@ -126,7 +126,7 @@
   <data name="Audit Trails" xml:space="preserve">
     <value>Registro Attività</value>
   </data>
-  <data name="Brands" xml:space="preserve">
+  <data name="Tags" xml:space="preserve">
     <value>Marche</value>
   </data>
   <data name="Catalog Management" xml:space="preserve">
@@ -165,7 +165,7 @@
   <data name="Personal" xml:space="preserve">
     <value>Personale</value>
   </data>
-  <data name="Products" xml:space="preserve">
+  <data name="Notes" xml:space="preserve">
     <value>Prodotti</value>
   </data>
   <data name="Quick Start Guide" xml:space="preserve">

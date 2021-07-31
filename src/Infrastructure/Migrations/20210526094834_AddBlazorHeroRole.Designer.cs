@@ -18,7 +18,7 @@ namespace NoNonense.Infrastructure.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.6")
+                .HasAnnotation("NoteVersion", "5.0.6")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("NoNonense.Application.Models.Audit.Audit", b =>
@@ -228,7 +228,7 @@ namespace NoNonense.Infrastructure.Migrations
                     b.ToTable("Users", "Identity");
                 });
 
-            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Brand", b =>
+            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Tag", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -258,10 +258,10 @@ namespace NoNonense.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brands");
+                    b.ToTable("Tags");
                 });
 
-            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Product", b =>
+            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Note", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -271,7 +271,7 @@ namespace NoNonense.Infrastructure.Migrations
                     b.Property<string>("Barcode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("BrandId")
+                    b.Property<int>("TagId")
                         .HasColumnType("int");
 
                     b.Property<string>("CreatedBy")
@@ -300,9 +300,9 @@ namespace NoNonense.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BrandId");
+                    b.HasIndex("TagId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Notes");
                 });
 
             modelBuilder.Entity("NoNonense.Domain.Entities.Document", b =>
@@ -460,15 +460,15 @@ namespace NoNonense.Infrastructure.Migrations
                     b.Navigation("ToUser");
                 });
 
-            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Product", b =>
+            modelBuilder.Entity("NoNonense.Domain.Entities.Catalog.Note", b =>
                 {
-                    b.HasOne("NoNonense.Domain.Entities.Catalog.Brand", "Brand")
+                    b.HasOne("NoNonense.Domain.Entities.Catalog.Tag", "Tag")
                         .WithMany()
-                        .HasForeignKey("BrandId")
+                        .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Brand");
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

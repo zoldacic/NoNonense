@@ -3,14 +3,14 @@ using NoNonense.Domain.Entities.Catalog;
 
 namespace NoNonense.Application.Specifications.Catalog
 {
-    public class ProductFilterSpecification : HeroSpecification<Product>
+    public class NoteFilterSpecification : HeroSpecification<Note>
     {
-        public ProductFilterSpecification(string searchString)
+        public NoteFilterSpecification(string searchString)
         {
-            Includes.Add(a => a.Brand);
+            Includes.Add(a => a.Tag);
             if (!string.IsNullOrEmpty(searchString))
             {
-                Criteria = p => p.Barcode != null && (p.Name.Contains(searchString) || p.Description.Contains(searchString) || p.Barcode.Contains(searchString) || p.Brand.Name.Contains(searchString));
+                Criteria = p => p.Barcode != null && (p.Name.Contains(searchString) || p.Description.Contains(searchString) || p.Barcode.Contains(searchString) || p.Tag.Name.Contains(searchString));
             }
             else
             {

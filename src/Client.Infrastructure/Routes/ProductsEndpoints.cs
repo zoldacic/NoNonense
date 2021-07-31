@@ -2,11 +2,11 @@
 
 namespace NoNonense.Client.Infrastructure.Routes
 {
-    public static class ProductsEndpoints
+    public static class NotesEndpoints
     {
         public static string GetAllPaged(int pageNumber, int pageSize, string searchString, string[] orderBy)
         {
-            var url = $"api/v1/products?pageNumber={pageNumber}&pageSize={pageSize}&searchString={searchString}&orderBy=";
+            var url = $"api/v1/notes?pageNumber={pageNumber}&pageSize={pageSize}&searchString={searchString}&orderBy=";
             if (orderBy?.Any() == true)
             {
                 foreach (var orderByPart in orderBy)
@@ -18,11 +18,11 @@ namespace NoNonense.Client.Infrastructure.Routes
             return url;
         }
 
-        public static string GetCount = "api/v1/products/count";
+        public static string GetCount = "api/v1/notes/count";
 
-        public static string GetProductImage(int productId)
+        public static string GetNoteImage(int noteId)
         {
-            return $"api/v1/products/image/{productId}";
+            return $"api/v1/notes/image/{noteId}";
         }
 
         public static string ExportFiltered(string searchString)
@@ -30,9 +30,9 @@ namespace NoNonense.Client.Infrastructure.Routes
             return $"{Export}?searchString={searchString}";
         }
 
-        public static string Save = "api/v1/products";
-        public static string Delete = "api/v1/products";
-        public static string Export = "api/v1/products/export";
+        public static string Save = "api/v1/notes";
+        public static string Delete = "api/v1/notes";
+        public static string Export = "api/v1/notes/export";
         public static string ChangePassword = "api/identity/account/changepassword";
         public static string UpdateProfile = "api/identity/account/updateprofile";
     }

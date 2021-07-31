@@ -120,7 +120,7 @@
   <data name="Barcode is required!" xml:space="preserve">
     <value>បាកូដត្រូវបំពេញ!</value>
   </data>
-  <data name="Brand is required!" xml:space="preserve">
+  <data name="Tag is required!" xml:space="preserve">
     <value>ម៉ាកត្រូវបំពេញ!</value>
   </data>
   <data name="Description is required!" xml:space="preserve">

@@ -4,8 +4,8 @@ namespace NoNonense.Application.Enums
 {
     public enum UploadType : byte
     {
-        [Description(@"Images\Products")]
-        Product,
+        [Description(@"Images\Notes")]
+        Note,
 
         [Description(@"Images\ProfilePictures")]
         ProfilePicture,

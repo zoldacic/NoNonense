@@ -15,8 +15,8 @@ namespace NoNonense.Client.Pages.Content
         [Inject] private IDashboardManager DashboardManager { get; set; }
 
         [CascadingParameter] private HubConnection HubConnection { get; set; }
-        [Parameter] public int ProductCount { get; set; }
-        [Parameter] public int BrandCount { get; set; }
+        [Parameter] public int NoteCount { get; set; }
+        [Parameter] public int TagCount { get; set; }
         [Parameter] public int DocumentCount { get; set; }
         [Parameter] public int DocumentTypeCount { get; set; }
         [Parameter] public int DocumentExtendedAttributeCount { get; set; }
@@ -47,8 +47,8 @@ namespace NoNonense.Client.Pages.Content
             var response = await DashboardManager.GetDataAsync();
             if (response.Succeeded)
             {
-                ProductCount = response.Data.ProductCount;
-                BrandCount = response.Data.BrandCount;
+                NoteCount = response.Data.NoteCount;
+                TagCount = response.Data.TagCount;
                 DocumentCount = response.Data.DocumentCount;
                 DocumentTypeCount = response.Data.DocumentTypeCount;
                 DocumentExtendedAttributeCount = response.Data.DocumentExtendedAttributeCount;

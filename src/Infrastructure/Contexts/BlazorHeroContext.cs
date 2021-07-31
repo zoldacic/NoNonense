@@ -26,8 +26,8 @@ namespace NoNonense.Infrastructure.Contexts
         }
 
         public DbSet<ChatHistory<BlazorHeroUser>> ChatHistories { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Brand> Brands { get; set; }
+        public DbSet<Note> Notes { get; set; }
+        public DbSet<Tag> Tags { get; set; }
         public DbSet<Document> Documents { get; set; }
         public DbSet<DocumentType> DocumentTypes { get; set; }
         public DbSet<DocumentExtendedAttribute> DocumentExtendedAttributes { get; set; }
