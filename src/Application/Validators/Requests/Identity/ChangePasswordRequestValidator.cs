@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Requests.Identity;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Validators.Requests.Identity
+namespace NowWhat.Application.Validators.Requests.Identity
 {
     public class ChangePasswordRequestValidator : AbstractValidator<ChangePasswordRequest>
     {

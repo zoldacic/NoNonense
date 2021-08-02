@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
 
-namespace NoNonense.Client.Infrastructure.Mappings
+namespace NowWhat.Client.Infrastructure.Mappings
 {
     public class RoleProfile : Profile
     {

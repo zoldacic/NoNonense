@@ -1,10 +1,10 @@
-﻿using NoNonense.Shared.Constants.Permission;
+﻿using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using System;
 using System.Threading.Tasks;
 
-namespace NoNonense.Server.Permission
+namespace NowWhat.Server.Permission
 {
     internal class PermissionPolicyProvider : IAuthorizationPolicyProvider
     {

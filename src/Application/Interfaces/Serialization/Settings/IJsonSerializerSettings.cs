@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace NoNonense.Application.Interfaces.Serialization.Settings
+namespace NowWhat.Application.Interfaces.Serialization.Settings
 {
     public interface IJsonSerializerSettings
     {

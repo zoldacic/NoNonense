@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Interfaces.Serialization.Serializers;
+﻿using NowWhat.Application.Interfaces.Serialization.Serializers;
 using FluentValidation;
 using FluentValidation.Validators;
 
-namespace NoNonense.Application.Validators
+namespace NowWhat.Application.Validators
 {
     public class JsonValidator<T> : PropertyValidator<T, string>
     {

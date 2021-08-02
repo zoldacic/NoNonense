@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Infrastructure.Helpers;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Shared.Constants.Role;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Infrastructure.Helpers;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Shared.Constants.Role;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
@@ -13,10 +13,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Shared.Constants.Permission;
 
-namespace NoNonense.Infrastructure.Services.Identity
+namespace NowWhat.Infrastructure.Services.Identity
 {
     public class RoleService : IRoleService
     {

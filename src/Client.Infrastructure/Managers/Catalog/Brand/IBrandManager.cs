@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Features.Tags.Queries.GetAll;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Features.Tags.Queries.GetAll;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Tag
+namespace NowWhat.Client.Infrastructure.Managers.Catalog.Tag
 {
     public interface ITagManager : IManager
     {

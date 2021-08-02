@@ -1,7 +1,7 @@
 ﻿@page "/catalog/tags"
 @attribute [Authorize(Policy = Permissions.Tags.View)]
 @inject Microsoft.Extensions.Localization.IStringLocalizer<Tags> _localizer
-@using NoNonense.Application.Features.Tags.Queries.GetAll
+@using NowWhat.Application.Features.Tags.Queries.GetAll
 
 <style>
     .mud-table-container {

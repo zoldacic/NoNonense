@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.Role
+﻿namespace NowWhat.Shared.Constants.Role
 {
     public static class RoleConstants
     {

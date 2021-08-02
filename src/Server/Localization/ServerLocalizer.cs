@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Server.Localization
+namespace NowWhat.Server.Localization
 {
     internal class ServerLocalizer<T> where T : class
     {

@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Requests;
+﻿using NowWhat.Application.Requests;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface IUploadService
     {

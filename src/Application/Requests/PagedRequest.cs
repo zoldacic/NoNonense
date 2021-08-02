@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Requests
+﻿namespace NowWhat.Application.Requests
 {
     public abstract class PagedRequest
     {

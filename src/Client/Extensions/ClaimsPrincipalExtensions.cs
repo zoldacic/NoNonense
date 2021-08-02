@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace NoNonense.Client.Extensions
+namespace NowWhat.Client.Extensions
 {
     internal static class ClaimsPrincipalExtensions
     {

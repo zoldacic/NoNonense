@@ -1,14 +1,14 @@
-﻿using NoNonense.Application.Features.Tags.Queries.GetAll;
-using NoNonense.Application.Features.Tags.Queries.GetById;
-using NoNonense.Shared.Constants.Permission;
+﻿using NowWhat.Application.Features.Tags.Queries.GetAll;
+using NowWhat.Application.Features.Tags.Queries.GetById;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
-using NoNonense.Application.Features.Tags.Commands.Delete;
-using NoNonense.Application.Features.Tags.Queries.Export;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Application.Features.Tags.Commands.Delete;
+using NowWhat.Application.Features.Tags.Queries.Export;
 
-namespace NoNonense.Server.Controllers.v1.Catalog
+namespace NowWhat.Server.Controllers.v1.Catalog
 {
     public class TagsController : BaseApiController<TagsController>
     {

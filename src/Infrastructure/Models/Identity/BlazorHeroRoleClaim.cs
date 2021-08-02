@@ -1,8 +1,8 @@
 ﻿using System;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 using Microsoft.AspNetCore.Identity;
 
-namespace NoNonense.Infrastructure.Models.Identity
+namespace NowWhat.Infrastructure.Models.Identity
 {
     public class BlazorHeroRoleClaim : IdentityRoleClaim<string>, IAuditableEntity<int>
     {

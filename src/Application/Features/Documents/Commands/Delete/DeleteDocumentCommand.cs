@@ -1,15 +1,15 @@
 ﻿using System.Linq;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Documents.Commands.Delete
+namespace NowWhat.Application.Features.Documents.Commands.Delete
 {
     public class DeleteDocumentCommand : IRequest<Result<int>>
     {

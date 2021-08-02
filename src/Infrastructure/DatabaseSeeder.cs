@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Interfaces.Services;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Infrastructure.Helpers;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Shared.Constants.Permission;
-using NoNonense.Shared.Constants.Role;
-using NoNonense.Shared.Constants.User;
+﻿using NowWhat.Application.Interfaces.Services;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Infrastructure.Helpers;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Shared.Constants.Permission;
+using NowWhat.Shared.Constants.Role;
+using NowWhat.Shared.Constants.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace NoNonense.Infrastructure
+namespace NowWhat.Infrastructure
 {
     public class DatabaseSeeder : IDatabaseSeeder
     {

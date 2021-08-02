@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
-using NoNonense.Application.Interfaces.Serialization.Serializers;
-using NoNonense.Application.Serialization.Options;
+using NowWhat.Application.Interfaces.Serialization.Serializers;
+using NowWhat.Application.Serialization.Options;
 using Microsoft.Extensions.Options;
 
-namespace NoNonense.Application.Serialization.Serializers
+namespace NowWhat.Application.Serialization.Serializers
 {
     public class SystemTextJsonSerializer : IJsonSerializer
     {

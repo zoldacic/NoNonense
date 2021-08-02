@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services.Storage
+namespace NowWhat.Application.Interfaces.Services.Storage
 {
     public interface IServerStorageService
     {

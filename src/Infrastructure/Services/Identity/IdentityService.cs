@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Configurations;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Configurations;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -17,7 +17,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services.Identity
+namespace NowWhat.Infrastructure.Services.Identity
 {
     public class IdentityService : ITokenService
     {

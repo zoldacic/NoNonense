@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Features.Documents.Queries.GetById
+namespace NowWhat.Application.Features.Documents.Queries.GetById
 {
     public class GetDocumentByIdResponse
     {

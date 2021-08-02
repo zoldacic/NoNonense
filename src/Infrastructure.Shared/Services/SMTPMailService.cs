@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Configurations;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Requests.Mail;
+﻿using NowWhat.Application.Configurations;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Requests.Mail;
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using Microsoft.Extensions.Logging;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Options;
 using MimeKit;
 using System.Threading.Tasks;
 
-namespace NoNonense.Infrastructure.Shared.Services
+namespace NowWhat.Infrastructure.Shared.Services
 {
     public class SMTPMailService : IMailService
     {

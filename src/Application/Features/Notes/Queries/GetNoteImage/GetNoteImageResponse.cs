@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.Notes.Queries.GetNoteImage
+﻿namespace NowWhat.Application.Features.Notes.Queries.GetNoteImage
 {
     public class GetNoteImageResponse
     {

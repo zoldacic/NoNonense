@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Requests.Documents
+﻿namespace NowWhat.Application.Requests.Documents
 {
     public class GetAllPagedDocumentsRequest : PagedRequest
     {

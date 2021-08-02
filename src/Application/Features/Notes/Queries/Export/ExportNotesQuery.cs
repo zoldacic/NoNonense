@@ -1,18 +1,18 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Domain.Entities.Catalog;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Domain.Entities.Catalog;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Application.Extensions;
-using NoNonense.Application.Specifications.Catalog;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Extensions;
+using NowWhat.Application.Specifications.Catalog;
+using NowWhat.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Notes.Queries.Export
+namespace NowWhat.Application.Features.Notes.Queries.Export
 {
     public class ExportNotesQuery : IRequest<Result<string>>
     {

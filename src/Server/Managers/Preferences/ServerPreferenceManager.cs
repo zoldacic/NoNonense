@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Services.Storage;
-using NoNonense.Server.Settings;
-using NoNonense.Shared.Constants.Storage;
-using NoNonense.Shared.Settings;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Services.Storage;
+using NowWhat.Server.Settings;
+using NowWhat.Shared.Constants.Storage;
+using NowWhat.Shared.Settings;
+using NowWhat.Shared.Wrapper;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Server.Managers.Preferences
+namespace NowWhat.Server.Managers.Preferences
 {
     public class ServerPreferenceManager : IServerPreferenceManager
     {

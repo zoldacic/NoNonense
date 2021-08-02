@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
-using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Managers.Misc.DocumentType;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Application.Features.DocumentTypes.Commands.AddEdit;
+using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Managers.Misc.DocumentType;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 
-namespace NoNonense.Client.Pages.Misc
+namespace NowWhat.Client.Pages.Misc
 {
     public partial class AddEditDocumentTypeModal
     {

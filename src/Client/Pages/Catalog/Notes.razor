@@ -1,7 +1,7 @@
 ﻿@page "/catalog/notes"
 @attribute [Authorize(Policy = Permissions.Notes.View)]
 @inject Microsoft.Extensions.Localization.IStringLocalizer<Notes> _localizer
-@using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
+@using NowWhat.Application.Features.Notes.Queries.GetAllPaged;
 
 <style>
     .mud-table-container {

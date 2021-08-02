@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Users
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Users
 {
     public interface IUserManager : IManager
     {

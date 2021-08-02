@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace NoNonense.Application.Interfaces.Chat
+namespace NowWhat.Application.Interfaces.Chat
 {
     public interface IChatUser
     {

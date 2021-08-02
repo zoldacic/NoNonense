@@ -1,6 +1,6 @@
-﻿using NoNonense.Domain.Contracts;
+﻿using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Domain.Entities.Misc
+namespace NowWhat.Domain.Entities.Misc
 {
     public class DocumentType : AuditableEntity<int>
     {

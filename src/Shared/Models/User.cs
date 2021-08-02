@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Shared.Models
+namespace NowWhat.Shared.Models
 {
     public class User
     {

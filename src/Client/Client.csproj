@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <BlazorWebAssemblyLoadAllGlobalizationData>true</BlazorWebAssemblyLoadAllGlobalizationData>
-    <RootNamespace>NoNonense.Client</RootNamespace>
-    <AssemblyName>NoNonense.Client</AssemblyName>
+    <RootNamespace>NowWhat.Client</RootNamespace>
+    <AssemblyName>NowWhat.Client</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

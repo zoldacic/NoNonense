@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NoNonense.Shared.Wrapper
+namespace NowWhat.Shared.Wrapper
 {
     public class PaginatedResult<T> : Result
     {

@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Interfaces.Serialization.Serializers;
+﻿using NowWhat.Application.Interfaces.Serialization.Serializers;
 using FluentValidation;
 using FluentValidation.Validators;
 
-namespace NoNonense.Application.Validators.Extensions
+namespace NowWhat.Application.Validators.Extensions
 {
     public static class ValidatorExtensions
     {

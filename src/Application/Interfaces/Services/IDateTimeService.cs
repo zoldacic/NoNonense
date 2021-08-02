@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface IDateTimeService
     {

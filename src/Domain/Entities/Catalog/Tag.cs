@@ -1,6 +1,6 @@
-﻿using NoNonense.Domain.Contracts;
+﻿using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Domain.Entities.Catalog
+namespace NowWhat.Domain.Entities.Catalog
 {
     public class Tag : AuditableEntity<int>
     {

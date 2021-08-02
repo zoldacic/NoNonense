@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Interfaces.Common;
+﻿using NowWhat.Application.Interfaces.Common;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface ICurrentUserService : IService
     {

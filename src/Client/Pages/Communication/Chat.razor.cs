@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Models.Chat;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Models.Chat;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.SignalR.Client;
@@ -11,11 +11,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Client.Infrastructure.Managers.Communication;
-using NoNonense.Shared.Constants.Storage;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Client.Infrastructure.Managers.Communication;
+using NowWhat.Shared.Constants.Storage;
 
-namespace NoNonense.Client.Pages.Communication
+namespace NowWhat.Client.Pages.Communication
 {
     public partial class Chat
     {

@@ -1,17 +1,17 @@
 ﻿using System.Globalization;
 using System.Linq;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Server.Hubs;
-using NoNonense.Server.Middlewares;
-using NoNonense.Shared.Constants.Localization;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Server.Hubs;
+using NowWhat.Server.Middlewares;
+using NowWhat.Shared.Constants.Localization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Application;
 
-namespace NoNonense.Server.Extensions
+namespace NowWhat.Server.Extensions
 {
     internal static class ApplicationBuilderExtensions
     {

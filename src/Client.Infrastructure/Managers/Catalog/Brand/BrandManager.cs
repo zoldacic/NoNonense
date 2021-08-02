@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Features.Tags.Queries.GetAll;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Features.Tags.Queries.GetAll;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Tag
+namespace NowWhat.Client.Infrastructure.Managers.Catalog.Tag
 {
     public class TagManager : ITagManager
     {

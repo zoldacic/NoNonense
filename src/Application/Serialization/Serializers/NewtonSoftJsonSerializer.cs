@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Interfaces.Serialization.Serializers;
-using NoNonense.Application.Serialization.Settings;
+﻿using NowWhat.Application.Interfaces.Serialization.Serializers;
+using NowWhat.Application.Serialization.Settings;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
-namespace NoNonense.Application.Serialization.Serializers
+namespace NowWhat.Application.Serialization.Serializers
 {
     public class NewtonSoftJsonSerializer : IJsonSerializer
     {

@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Responses.Identity;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Shared.Constants.Permission;
+﻿using NowWhat.Application.Responses.Identity;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace NoNonense.Infrastructure.Helpers
+namespace NowWhat.Infrastructure.Helpers
 {
     public static class ClaimsHelper
     {

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace NoNonense.Application.Interfaces.Services.Storage
+namespace NowWhat.Application.Interfaces.Services.Storage
 {
     [ExcludeFromCodeCoverage]
     public class ChangedEventArgs

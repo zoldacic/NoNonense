@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using NoNonense.Shared.Constants.Localization;
-using NoNonense.Shared.Settings;
+using NowWhat.Shared.Constants.Localization;
+using NowWhat.Shared.Settings;
 
-namespace NoNonense.Client.Infrastructure.Settings
+namespace NowWhat.Client.Infrastructure.Settings
 {
     public record ClientPreference : IPreference
     {

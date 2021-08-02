@@ -1,7 +1,7 @@
-﻿using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Entities.ExtendedAttributes;
+﻿using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Entities.ExtendedAttributes;
 
-namespace NoNonense.Domain.Entities.Misc
+namespace NowWhat.Domain.Entities.Misc
 {
     public class Document : AuditableEntityWithExtendedAttributes<int, int, Document, DocumentExtendedAttribute>
     {

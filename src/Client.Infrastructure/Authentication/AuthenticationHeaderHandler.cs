@@ -3,9 +3,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Storage;
+using NowWhat.Shared.Constants.Storage;
 
-namespace NoNonense.Client.Infrastructure.Authentication
+namespace NowWhat.Client.Infrastructure.Authentication
 {
     public class AuthenticationHeaderHandler : DelegatingHandler
     {

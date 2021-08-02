@@ -1,7 +1,7 @@
-using NoNonense.Application.Extensions;
-using NoNonense.Infrastructure.Extensions;
-using NoNonense.Server.Extensions;
-using NoNonense.Server.Middlewares;
+using NowWhat.Application.Extensions;
+using NowWhat.Infrastructure.Extensions;
+using NowWhat.Server.Extensions;
+using NowWhat.Server.Middlewares;
 using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,11 +11,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
-using NoNonense.Server.Filters;
-using NoNonense.Server.Managers.Preferences;
+using NowWhat.Server.Filters;
+using NowWhat.Server.Managers.Preferences;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Server
+namespace NowWhat.Server
 {
     public class Startup
     {

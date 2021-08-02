@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoNonense.Shared.Wrapper
+namespace NowWhat.Shared.Wrapper
 {
     public interface IResult
     {

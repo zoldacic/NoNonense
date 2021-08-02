@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.DocumentTypes.Queries.GetAll
+﻿namespace NowWhat.Application.Features.DocumentTypes.Queries.GetAll
 {
     public class GetAllDocumentTypesResponse
     {

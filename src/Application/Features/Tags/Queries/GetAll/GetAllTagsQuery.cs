@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 using System;
@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Features.Tags.Queries.GetAll
+namespace NowWhat.Application.Features.Tags.Queries.GetAll
 {
     public class GetAllTagsQuery : IRequest<Result<List<GetAllTagsResponse>>>
     {

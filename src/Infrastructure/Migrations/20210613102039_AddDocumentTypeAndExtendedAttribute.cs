@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace NoNonense.Infrastructure.Migrations
+namespace NowWhat.Infrastructure.Migrations
 {
     public partial class AddDocumentTypeAndExtendedAttribute : Migration
     {

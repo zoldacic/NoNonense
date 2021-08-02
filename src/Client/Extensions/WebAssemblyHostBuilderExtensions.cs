@@ -1,8 +1,8 @@
 ﻿using Blazored.LocalStorage;
-using NoNonense.Client.Infrastructure.Authentication;
-using NoNonense.Client.Infrastructure.Managers;
-using NoNonense.Client.Infrastructure.Managers.Preferences;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Client.Infrastructure.Authentication;
+using NowWhat.Client.Infrastructure.Managers;
+using NowWhat.Client.Infrastructure.Managers.Preferences;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -14,12 +14,12 @@ using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Reflection;
-using NoNonense.Client.Infrastructure.Managers.ExtendedAttribute;
-using NoNonense.Domain.Entities.ExtendedAttributes;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Client.Infrastructure.Managers.ExtendedAttribute;
+using NowWhat.Domain.Entities.ExtendedAttributes;
+using NowWhat.Domain.Entities.Misc;
 using Toolbelt.Blazor.Extensions.DependencyInjection;
 
-namespace NoNonense.Client.Extensions
+namespace NowWhat.Client.Extensions
 {
     public static class WebAssemblyHostBuilderExtensions
     {

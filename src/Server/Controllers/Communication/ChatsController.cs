@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Models.Chat;
+﻿using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Models.Chat;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Shared.Constants.Permission;
 
-namespace NoNonense.Server.Controllers.Communication
+namespace NowWhat.Server.Controllers.Communication
 {
     [Authorize(Policy = Permissions.Communication.Chat)]
     [Route("api/[controller]")]

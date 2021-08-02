@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Exceptions;
-using NoNonense.Application.Specifications.Base;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Exceptions;
+using NowWhat.Application.Specifications.Base;
+using NowWhat.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Application.Extensions
+namespace NowWhat.Application.Extensions
 {
     public static class QueryableExtensions
     {

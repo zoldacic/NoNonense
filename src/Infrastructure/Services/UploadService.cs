@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Requests;
+﻿using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Requests;
 using System.IO;
 
-namespace NoNonense.Infrastructure.Services
+namespace NowWhat.Infrastructure.Services
 {
     public class UploadService : IUploadService
     {

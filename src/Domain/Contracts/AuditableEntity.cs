@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Domain.Contracts
+namespace NowWhat.Domain.Contracts
 {
     public abstract class AuditableEntity<TId> : IAuditableEntity<TId>
     {

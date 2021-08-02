@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Specifications.Misc;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Specifications.Misc;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.DocumentTypes.Queries.Export
+namespace NowWhat.Application.Features.DocumentTypes.Queries.Export
 {
     public class ExportDocumentTypesQuery : IRequest<Result<string>>
     {

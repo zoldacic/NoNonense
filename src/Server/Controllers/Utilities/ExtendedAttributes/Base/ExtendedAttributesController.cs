@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.Delete;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetById;
-using NoNonense.Domain.Contracts;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.Delete;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.Export;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetById;
+using NowWhat.Domain.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Base
+namespace NowWhat.Server.Controllers.Utilities.ExtendedAttributes.Base
 {
     /// <summary>
     /// Abstract Extended Attributes Controller Class

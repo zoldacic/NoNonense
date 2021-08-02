@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Interfaces.Common
+﻿namespace NowWhat.Application.Interfaces.Common
 {
     public interface ISingletonService
     {

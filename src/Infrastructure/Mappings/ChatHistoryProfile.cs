@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Application.Models.Chat;
-using NoNonense.Infrastructure.Models.Identity;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Application.Models.Chat;
+using NowWhat.Infrastructure.Models.Identity;
 
-namespace NoNonense.Infrastructure.Mappings
+namespace NowWhat.Infrastructure.Mappings
 {
     public class ChatHistoryProfile : Profile
     {

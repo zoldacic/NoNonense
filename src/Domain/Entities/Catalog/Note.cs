@@ -1,7 +1,7 @@
-﻿using NoNonense.Domain.Contracts;
+﻿using NowWhat.Domain.Contracts;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace NoNonense.Domain.Entities.Catalog
+namespace NowWhat.Domain.Entities.Catalog
 {
     public class Note : AuditableEntity<int>
     {

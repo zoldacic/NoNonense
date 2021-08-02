@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace NoNonense.Client.Infrastructure.Routes
+namespace NowWhat.Client.Infrastructure.Routes
 {
     public static class NotesEndpoints
     {

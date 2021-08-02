@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Interfaces.Serialization.Serializers;
+﻿using NowWhat.Application.Interfaces.Serialization.Serializers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace NoNonense.Infrastructure.Extensions
+namespace NowWhat.Infrastructure.Extensions
 {
     public static class ValueConversionExtensions
     {

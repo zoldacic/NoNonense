@@ -1,15 +1,15 @@
-﻿using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Account;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Account;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Identity;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services.Identity
+namespace NowWhat.Infrastructure.Services.Identity
 {
     public class AccountService : IAccountService
     {

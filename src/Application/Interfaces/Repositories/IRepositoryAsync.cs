@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Application.Interfaces.Repositories
+namespace NowWhat.Application.Interfaces.Repositories
 {
     public interface IRepositoryAsync<T, in TId> where T : class, IEntity<TId>
     {

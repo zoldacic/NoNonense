@@ -1,6 +1,6 @@
-﻿using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Settings;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Settings;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
 using MudBlazor;
@@ -8,10 +8,10 @@ using System;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
+using NowWhat.Client.Infrastructure.Managers.Identity.Roles;
 using Microsoft.AspNetCore.Components;
 
-namespace NoNonense.Client.Shared
+namespace NowWhat.Client.Shared
 {
     public partial class MainLayout : IDisposable
     {

@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
-using NoNonense.Application.Features.Tags.Queries.GetAll;
-using NoNonense.Application.Features.Tags.Queries.GetById;
-using NoNonense.Domain.Entities.Catalog;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Application.Features.Tags.Queries.GetAll;
+using NowWhat.Application.Features.Tags.Queries.GetById;
+using NowWhat.Domain.Entities.Catalog;
 
-namespace NoNonense.Application.Mappings
+namespace NowWhat.Application.Mappings
 {
     public class TagProfile : Profile
     {

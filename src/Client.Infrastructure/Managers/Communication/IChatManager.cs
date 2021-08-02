@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Models.Chat;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Models.Chat;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
+using NowWhat.Application.Interfaces.Chat;
 
-namespace NoNonense.Client.Infrastructure.Managers.Communication
+namespace NowWhat.Client.Infrastructure.Managers.Communication
 {
     public interface IChatManager : IManager
     {

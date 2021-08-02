@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Features.Notes.Commands.AddEdit;
-using NoNonense.Domain.Entities.Catalog;
+using NowWhat.Application.Features.Notes.Commands.AddEdit;
+using NowWhat.Domain.Entities.Catalog;
 
-namespace NoNonense.Application.Mappings
+namespace NowWhat.Application.Mappings
 {
     public class NoteProfile : Profile
     {

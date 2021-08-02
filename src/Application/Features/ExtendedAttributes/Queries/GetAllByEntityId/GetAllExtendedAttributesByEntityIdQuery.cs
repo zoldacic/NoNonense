@@ -4,15 +4,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId
+namespace NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId
 {
     public class GetAllExtendedAttributesByEntityIdQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<List<GetAllExtendedAttributesByEntityIdResponse<TId, TEntityId>>>>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Interfaces.Chat
+namespace NowWhat.Application.Interfaces.Chat
 {
     public interface IChatHistory<TUser> where TUser : IChatUser
     {

@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>NoNonense.Domain</RootNamespace>
-    <AssemblyName>NoNonense.Domain</AssemblyName>
+    <RootNamespace>NowWhat.Domain</RootNamespace>
+    <AssemblyName>NowWhat.Domain</AssemblyName>
   </PropertyGroup>
 
 </Project>

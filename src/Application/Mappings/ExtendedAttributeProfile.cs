@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetById;
-using NoNonense.Domain.Entities.ExtendedAttributes;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetById;
+using NowWhat.Domain.Entities.ExtendedAttributes;
 
-namespace NoNonense.Application.Mappings
+namespace NowWhat.Application.Mappings
 {
     public class ExtendedAttributeProfile : Profile
     {

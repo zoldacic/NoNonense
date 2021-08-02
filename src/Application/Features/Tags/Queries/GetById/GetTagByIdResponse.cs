@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.Tags.Queries.GetById
+﻿namespace NowWhat.Application.Features.Tags.Queries.GetById
 {
     public class GetTagByIdResponse
     {

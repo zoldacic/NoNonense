@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Toolbelt.Blazor;
 
-namespace NoNonense.Client.Infrastructure.Managers.Interceptors
+namespace NowWhat.Client.Infrastructure.Managers.Interceptors
 {
     public interface IHttpInterceptorManager : IManager
     {

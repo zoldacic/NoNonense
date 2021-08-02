@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Features.Tags.Queries.GetAll;
-using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Features.Tags.Queries.GetAll;
+using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
@@ -9,13 +9,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
-using NoNonense.Client.Infrastructure.Managers.Catalog.Tag;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Client.Infrastructure.Managers.Catalog.Tag;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.JSInterop;
 
-namespace NoNonense.Client.Pages.Catalog
+namespace NowWhat.Client.Pages.Catalog
 {
     public partial class Tags
     {

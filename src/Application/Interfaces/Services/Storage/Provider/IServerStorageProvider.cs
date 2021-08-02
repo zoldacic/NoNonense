@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services.Storage.Provider
+namespace NowWhat.Application.Interfaces.Services.Storage.Provider
 {
     public interface IStorageProvider
     {

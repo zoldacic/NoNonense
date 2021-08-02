@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Requests;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Requests;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System;
 using System.ComponentModel.DataAnnotations;
@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Documents.Commands.AddEdit
+namespace NowWhat.Application.Features.Documents.Commands.AddEdit
 {
     public partial class AddEditDocumentCommand : IRequest<Result<int>>
     {

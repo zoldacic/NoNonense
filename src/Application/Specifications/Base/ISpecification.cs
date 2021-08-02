@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Application.Specifications.Base
+namespace NowWhat.Application.Specifications.Base
 {
     public interface ISpecification<T> where T : class, IEntity
     {

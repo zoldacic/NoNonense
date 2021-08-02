@@ -1,11 +1,11 @@
 ﻿using System;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Enums;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Enums;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Validators.Features.ExtendedAttributes.Commands.AddEdit
+namespace NowWhat.Application.Validators.Features.ExtendedAttributes.Commands.AddEdit
 {
     public class AddEditExtendedAttributeCommandValidatorLocalization
     {

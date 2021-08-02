@@ -1,5 +1,5 @@
-﻿using NoNonense.Application.Exceptions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Exceptions;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NoNonense.Server.Middlewares
+namespace NowWhat.Server.Middlewares
 {
     public class ErrorHandlerMiddleware
     {

@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Requests.Identity;
 using Microsoft.AspNetCore.Components.Authorization;
 using MudBlazor;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
 
-namespace NoNonense.Client.Pages.Authentication
+namespace NowWhat.Client.Pages.Authentication
 {
     public partial class Login
     {

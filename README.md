@@ -90,14 +90,14 @@ So, here is an in-depth video that takes you through the BlazorHero Project! Do 
 > **Important**
 If you are already using Blazor Hero v1.x, make sure that you drop your existing database and re-update your database using the CLI as there are couple of new migrations added that may clash with your existing schema. Also, install the latest version of BlazorHero.
 
-The easiest way to get started with Blazor Hero is to install the [NuGet package](https://www.nuget.org/packages/NoNonense/) and run `dotnet new NoNonense`:
+The easiest way to get started with Blazor Hero is to install the [NuGet package](https://www.nuget.org/packages/NowWhat/) and run `dotnet new NowWhat`:
 
 1. Install the latest [.NET 5 SDK](https://dotnet.microsoft.com/download/dotnet/5.0)
 2. Install the latest DOTNET & EF CLI Tools by using this command `dotnet tool install --global dotnet-ef` 
 3. Install the latest version of Visual Studio IDE 2019 (v16.8 and above) 🚀
-4. Open up Command Prompt and run `dotnet new --install NoNonense` to install the project template
+4. Open up Command Prompt and run `dotnet new --install NowWhat` to install the project template
 5. Create a folder for your solution and cd into it (the template will use it as project name)
-6. Run `dotnet new NoNonense` to create a new Solution with all the Awesomeness 🕶️ of BlazorHero 🦸
+6. Run `dotnet new NowWhat` to create a new Solution with all the Awesomeness 🕶️ of BlazorHero 🦸
 
 What to do next? Read the [entire guide on my blog](https://codewithmukesh.com/blog/blazor-hero-quick-start-guide/).
 

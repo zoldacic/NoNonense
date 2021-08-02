@@ -1,12 +1,12 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Notes.Commands.Delete
+namespace NowWhat.Application.Features.Notes.Commands.Delete
 {
     public class DeleteNoteCommand : IRequest<Result<int>>
     {

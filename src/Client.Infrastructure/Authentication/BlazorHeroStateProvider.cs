@@ -1,5 +1,5 @@
 ﻿using Blazored.LocalStorage;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Components.Authorization;
 using System;
 using System.Collections.Generic;
@@ -9,9 +9,9 @@ using System.Net.Http.Headers;
 using System.Security.Claims;
 using System.Text.Json;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Storage;
+using NowWhat.Shared.Constants.Storage;
 
-namespace NoNonense.Client.Infrastructure.Authentication
+namespace NowWhat.Client.Infrastructure.Authentication
 {
     public class BlazorHeroStateProvider : AuthenticationStateProvider
     {

@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
 
-namespace NoNonense.Infrastructure.Repositories
+namespace NowWhat.Infrastructure.Repositories
 {
     public class TagRepository : ITagRepository
     {

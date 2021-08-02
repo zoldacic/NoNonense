@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Features.DocumentTypes.Commands.AddEdit;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetAll;
+using NowWhat.Shared.Wrapper;
 
-namespace NoNonense.Client.Infrastructure.Managers.Misc.DocumentType
+namespace NowWhat.Client.Infrastructure.Managers.Misc.DocumentType
 {
     public interface IDocumentTypeManager : IManager
     {

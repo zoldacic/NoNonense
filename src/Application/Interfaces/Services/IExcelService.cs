@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface IExcelService
     {

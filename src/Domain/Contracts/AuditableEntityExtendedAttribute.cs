@@ -1,8 +1,8 @@
 ﻿#nullable enable
 using System;
-using NoNonense.Domain.Enums;
+using NowWhat.Domain.Enums;
 
-namespace NoNonense.Domain.Contracts
+namespace NowWhat.Domain.Contracts
 {
     public abstract class AuditableEntityExtendedAttribute<TId, TEntityId, TEntity>
         : AuditableEntity<TId>, IEntityAuditableExtendedAttribute<TId, TEntityId, TEntity>

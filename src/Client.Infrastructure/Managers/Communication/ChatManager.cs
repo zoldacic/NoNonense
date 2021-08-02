@@ -1,14 +1,14 @@
-﻿using NoNonense.Application.Models.Chat;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Models.Chat;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
+using NowWhat.Application.Interfaces.Chat;
 
-namespace NoNonense.Client.Infrastructure.Managers.Communication
+namespace NowWhat.Client.Infrastructure.Managers.Communication
 {
     public class ChatManager : IChatManager
     {

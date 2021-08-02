@@ -1,6 +1,6 @@
-﻿using NoNonense.Shared.Managers;
+﻿using NowWhat.Shared.Managers;
 
-namespace NoNonense.Server.Managers.Preferences
+namespace NowWhat.Server.Managers.Preferences
 {
     public interface IServerPreferenceManager : IPreferenceManager
     {

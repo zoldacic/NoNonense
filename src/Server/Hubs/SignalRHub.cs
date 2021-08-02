@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Models.Chat;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Models.Chat;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
+using NowWhat.Application.Interfaces.Chat;
 
-namespace NoNonense.Server.Hubs
+namespace NowWhat.Server.Hubs
 {
     public class SignalRHub : Hub
     {

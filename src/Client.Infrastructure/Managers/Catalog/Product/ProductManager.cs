@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
-using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
-using NoNonense.Application.Requests.Catalog;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Features.Notes.Commands.AddEdit;
+using NowWhat.Application.Features.Notes.Queries.GetAllPaged;
+using NowWhat.Application.Requests.Catalog;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Note
+namespace NowWhat.Client.Infrastructure.Managers.Catalog.Note
 {
     public class NoteManager : INoteManager
     {

@@ -2,15 +2,15 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Commands.Delete
+namespace NowWhat.Application.Features.ExtendedAttributes.Commands.Delete
 {
     internal class DeleteExtendedAttributeCommandLocalization
     {

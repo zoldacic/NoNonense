@@ -1,5 +1,5 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Client.Extensions;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Client.Extensions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
@@ -7,9 +7,9 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using NoNonense.Shared.Constants.Storage;
+using NowWhat.Shared.Constants.Storage;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class Profile
     {

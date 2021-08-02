@@ -1,17 +1,17 @@
-﻿using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Models.Chat;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Entities.Catalog;
+﻿using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Models.Chat;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Entities.Catalog;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Domain.Entities.ExtendedAttributes;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Domain.Entities.ExtendedAttributes;
+using NowWhat.Domain.Entities.Misc;
 
-namespace NoNonense.Infrastructure.Contexts
+namespace NowWhat.Infrastructure.Contexts
 {
     public class BlazorHeroContext : AuditableContext
     {

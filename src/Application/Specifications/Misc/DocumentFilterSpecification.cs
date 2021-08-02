@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Specifications.Base;
-using NoNonense.Domain.Entities.Misc;
+﻿using NowWhat.Application.Specifications.Base;
+using NowWhat.Domain.Entities.Misc;
 
-namespace NoNonense.Application.Specifications.Misc
+namespace NowWhat.Application.Specifications.Misc
 {
     public class DocumentFilterSpecification : HeroSpecification<Document>
     {

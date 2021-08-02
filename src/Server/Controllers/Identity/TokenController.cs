@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Requests.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace NoNonense.Server.Controllers.Identity
+namespace NowWhat.Server.Controllers.Identity
 {
     [Route("api/identity/token")]
     [ApiController]

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace NoNonense.Application.Exceptions
+namespace NowWhat.Application.Exceptions
 {
     public class ApiException : Exception
     {

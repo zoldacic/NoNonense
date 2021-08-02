@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetById;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Application.Features.DocumentTypes.Commands.AddEdit;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetAll;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetById;
+using NowWhat.Domain.Entities.Misc;
 
-namespace NoNonense.Application.Mappings
+namespace NowWhat.Application.Mappings
 {
     public class DocumentTypeProfile : Profile
     {

@@ -2,18 +2,18 @@
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services.Storage;
-using NoNonense.Application.Interfaces.Services.Storage.Provider;
-using NoNonense.Application.Interfaces.Serialization.Serializers;
-using NoNonense.Application.Serialization.JsonConverters;
-using NoNonense.Infrastructure.Repositories;
-using NoNonense.Infrastructure.Services.Storage;
-using NoNonense.Application.Serialization.Options;
-using NoNonense.Infrastructure.Services.Storage.Provider;
-using NoNonense.Application.Serialization.Serializers;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services.Storage;
+using NowWhat.Application.Interfaces.Services.Storage.Provider;
+using NowWhat.Application.Interfaces.Serialization.Serializers;
+using NowWhat.Application.Serialization.JsonConverters;
+using NowWhat.Infrastructure.Repositories;
+using NowWhat.Infrastructure.Services.Storage;
+using NowWhat.Application.Serialization.Options;
+using NowWhat.Infrastructure.Services.Storage.Provider;
+using NowWhat.Application.Serialization.Serializers;
 
-namespace NoNonense.Infrastructure.Extensions
+namespace NowWhat.Infrastructure.Extensions
 {
     public static class ServiceCollectionExtensions
     {

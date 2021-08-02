@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Domain.Contracts;
-using NoNonense.Infrastructure.Contexts;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Domain.Contracts;
+using NowWhat.Infrastructure.Contexts;
 using LazyCache;
 using System;
 using System.Collections;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Infrastructure.Repositories
+namespace NowWhat.Infrastructure.Repositories
 {
     public class UnitOfWork<TId> : IUnitOfWork<TId>
     {

@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Authentication
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Authentication
 {
     public interface IAuthenticationManager : IManager
     {

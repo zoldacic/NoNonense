@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace NoNonense.Server.Controllers
+namespace NowWhat.Server.Controllers
 {
     /// <summary>
     /// Abstract BaseApi Controller Class

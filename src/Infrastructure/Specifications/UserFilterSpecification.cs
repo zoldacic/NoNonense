@@ -1,7 +1,7 @@
-﻿using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Application.Specifications.Base;
+﻿using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Application.Specifications.Base;
 
-namespace NoNonense.Infrastructure.Specifications
+namespace NowWhat.Infrastructure.Specifications
 {
     public class UserFilterSpecification : HeroSpecification<BlazorHeroUser>
     {

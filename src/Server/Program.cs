@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Threading.Tasks;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Server.Extensions;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Server.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace NoNonense.Server
+namespace NowWhat.Server
 {
     public class Program
     {

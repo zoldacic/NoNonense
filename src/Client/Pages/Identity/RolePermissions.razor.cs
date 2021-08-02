@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using AutoMapper;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Mappings;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Mappings;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Client.Infrastructure.Managers.Identity.Roles;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class RolePermissions
     {

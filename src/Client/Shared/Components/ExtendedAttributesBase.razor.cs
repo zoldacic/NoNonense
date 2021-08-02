@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Managers.ExtendedAttribute;
-using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Enums;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.Export;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Managers.ExtendedAttribute;
+using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Enums;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
 using MudBlazor;
 
-namespace NoNonense.Client.Shared.Components
+namespace NowWhat.Client.Shared.Components
 {
     public class ExtendedAttributesLocalization
     {

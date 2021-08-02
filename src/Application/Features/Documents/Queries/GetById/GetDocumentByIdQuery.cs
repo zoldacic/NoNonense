@@ -1,12 +1,12 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 
-namespace NoNonense.Application.Features.Documents.Queries.GetById
+namespace NowWhat.Application.Features.Documents.Queries.GetById
 {
     public class GetDocumentByIdQuery : IRequest<Result<GetDocumentByIdResponse>>
     {

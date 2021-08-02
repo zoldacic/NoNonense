@@ -2,12 +2,12 @@
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetById
+namespace NowWhat.Application.Features.ExtendedAttributes.Queries.GetById
 {
     public class GetExtendedAttributeByIdQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<GetExtendedAttributeByIdResponse<TId, TEntityId>>>

@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
-using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Managers.Misc.DocumentType;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.DocumentTypes.Commands.AddEdit;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetAll;
+using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Managers.Misc.DocumentType;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
 using MudBlazor;
 
-namespace NoNonense.Client.Pages.Misc
+namespace NowWhat.Client.Pages.Misc
 {
     public partial class DocumentTypes
     {

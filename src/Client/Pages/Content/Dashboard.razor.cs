@@ -5,10 +5,10 @@ using MudBlazor;
 using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Managers.Dashboard;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Client.Infrastructure.Managers.Dashboard;
+using NowWhat.Shared.Constants.Application;
 
-namespace NoNonense.Client.Pages.Content
+namespace NowWhat.Client.Pages.Content
 {
     public partial class Dashboard
     {

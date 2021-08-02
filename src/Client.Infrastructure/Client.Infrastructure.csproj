@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>NoNonense.Client.Infrastructure</RootNamespace>
-    <AssemblyName>NoNonense.Client.Infrastructure</AssemblyName>
+    <RootNamespace>NowWhat.Client.Infrastructure</RootNamespace>
+    <AssemblyName>NowWhat.Client.Infrastructure</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />

@@ -1,6 +1,6 @@
 ﻿using MudBlazor;
 
-namespace NoNonense.Client.Infrastructure.Settings
+namespace NowWhat.Client.Infrastructure.Settings
 {
     public class BlazorHeroTheme
     {

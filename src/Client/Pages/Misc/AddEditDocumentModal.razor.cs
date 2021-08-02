@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using NoNonense.Application.Features.Documents.Commands.AddEdit;
-using NoNonense.Application.Requests;
+using NowWhat.Application.Features.Documents.Commands.AddEdit;
+using NowWhat.Application.Requests;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Forms;
 using MudBlazor;
@@ -9,11 +9,11 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
-using NoNonense.Client.Infrastructure.Managers.Misc.Document;
-using NoNonense.Client.Infrastructure.Managers.Misc.DocumentType;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetAll;
+using NowWhat.Client.Infrastructure.Managers.Misc.Document;
+using NowWhat.Client.Infrastructure.Managers.Misc.DocumentType;
 
-namespace NoNonense.Client.Pages.Misc
+namespace NowWhat.Client.Pages.Misc
 {
     public partial class AddEditDocumentModal
     {

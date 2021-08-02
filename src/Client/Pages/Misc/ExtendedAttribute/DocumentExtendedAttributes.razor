@@ -1,9 +1,9 @@
 ﻿@page "/extended-attributes/{EntityName}/{EntityIdString}"
 @attribute [Authorize(Policy = Permissions.DocumentExtendedAttributes.View)]
 
-@using NoNonense.Domain.Entities.Misc
-@using NoNonense.Domain.Entities.ExtendedAttributes
-@namespace NoNonense.Client.Pages.Misc.ExtendedAttribute
+@using NowWhat.Domain.Entities.Misc
+@using NowWhat.Domain.Entities.ExtendedAttributes
+@namespace NowWhat.Client.Pages.Misc.ExtendedAttribute
 
 @inherits ExtendedAttributes<int, int, Document, DocumentExtendedAttribute>
 

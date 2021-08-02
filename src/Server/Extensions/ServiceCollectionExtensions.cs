@@ -1,21 +1,21 @@
-﻿using NoNonense.Application.Configurations;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Account;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Infrastructure;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Infrastructure.Services;
-using NoNonense.Infrastructure.Services.Identity;
-using NoNonense.Infrastructure.Shared.Services;
-using NoNonense.Server.Localization;
-using NoNonense.Server.Managers.Preferences;
-using NoNonense.Server.Permission;
-using NoNonense.Server.Services;
-using NoNonense.Server.Settings;
-using NoNonense.Shared.Constants.Localization;
-using NoNonense.Shared.Constants.Permission;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Configurations;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Account;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Infrastructure;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Infrastructure.Services;
+using NowWhat.Infrastructure.Services.Identity;
+using NowWhat.Infrastructure.Shared.Services;
+using NowWhat.Server.Localization;
+using NowWhat.Server.Managers.Preferences;
+using NowWhat.Server.Permission;
+using NowWhat.Server.Services;
+using NowWhat.Server.Settings;
+using NowWhat.Shared.Constants.Localization;
+using NowWhat.Shared.Constants.Permission;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -38,15 +38,15 @@ using System.Reflection;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Serialization.Options;
-using NoNonense.Application.Interfaces.Serialization.Serializers;
-using NoNonense.Application.Interfaces.Serialization.Settings;
-using NoNonense.Application.Serialization.JsonConverters;
-using NoNonense.Application.Serialization.Options;
-using NoNonense.Application.Serialization.Serializers;
-using NoNonense.Application.Serialization.Settings;
+using NowWhat.Application.Interfaces.Serialization.Options;
+using NowWhat.Application.Interfaces.Serialization.Serializers;
+using NowWhat.Application.Interfaces.Serialization.Settings;
+using NowWhat.Application.Serialization.JsonConverters;
+using NowWhat.Application.Serialization.Options;
+using NowWhat.Application.Serialization.Serializers;
+using NowWhat.Application.Serialization.Settings;
 
-namespace NoNonense.Server.Extensions
+namespace NowWhat.Server.Extensions
 {
     internal static class ServiceCollectionExtensions
     {
@@ -119,7 +119,7 @@ namespace NoNonense.Server.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "NoNonense",
+                    Title = "NowWhat",
                     License = new OpenApiLicense
                     {
                         Name = "MIT License",

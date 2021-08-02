@@ -1,7 +1,7 @@
-﻿using NoNonense.Infrastructure.Models.Audit;
-using NoNonense.Application.Specifications.Base;
+﻿using NowWhat.Infrastructure.Models.Audit;
+using NowWhat.Application.Specifications.Base;
 
-namespace NoNonense.Infrastructure.Specifications
+namespace NowWhat.Infrastructure.Specifications
 {
     public class AuditFilterSpecification : HeroSpecification<Audit>
     {

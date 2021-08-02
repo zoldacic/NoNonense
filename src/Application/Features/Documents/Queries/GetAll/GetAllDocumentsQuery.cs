@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Specifications.Misc;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Specifications.Misc;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Features.Documents.Queries.GetAll
+namespace NowWhat.Application.Features.Documents.Queries.GetAll
 {
     public class GetAllDocumentsQuery : IRequest<PaginatedResult<GetAllDocumentsResponse>>
     {

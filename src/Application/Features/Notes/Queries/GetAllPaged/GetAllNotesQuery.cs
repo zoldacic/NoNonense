@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Specifications.Catalog;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Specifications.Catalog;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System;
 using System.Linq;
@@ -11,7 +11,7 @@ using System.Linq.Dynamic.Core;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Features.Notes.Queries.GetAllPaged
+namespace NowWhat.Application.Features.Notes.Queries.GetAllPaged
 {
     public class GetAllNotesQuery : IRequest<PaginatedResult<GetAllPagedNotesResponse>>
     {

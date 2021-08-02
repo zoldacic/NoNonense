@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace NoNonense.Application.Interfaces.Serialization.Options
+namespace NowWhat.Application.Interfaces.Serialization.Options
 {
     public interface IJsonSerializerOptions
     {

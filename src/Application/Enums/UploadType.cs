@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace NoNonense.Application.Enums
+namespace NowWhat.Application.Enums
 {
     public enum UploadType : byte
     {

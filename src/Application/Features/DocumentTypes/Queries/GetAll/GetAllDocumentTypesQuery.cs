@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 
-namespace NoNonense.Application.Features.DocumentTypes.Queries.GetAll
+namespace NowWhat.Application.Features.DocumentTypes.Queries.GetAll
 {
     public class GetAllDocumentTypesQuery : IRequest<Result<List<GetAllDocumentTypesResponse>>>
     {

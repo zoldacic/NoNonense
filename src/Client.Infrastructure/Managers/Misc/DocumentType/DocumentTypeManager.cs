@@ -2,12 +2,12 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.DocumentTypes.Commands.AddEdit;
-using NoNonense.Application.Features.DocumentTypes.Queries.GetAll;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Features.DocumentTypes.Commands.AddEdit;
+using NowWhat.Application.Features.DocumentTypes.Queries.GetAll;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 
-namespace NoNonense.Client.Infrastructure.Managers.Misc.DocumentType
+namespace NowWhat.Client.Infrastructure.Managers.Misc.DocumentType
 {
     public class DocumentTypeManager : IDocumentTypeManager
     {

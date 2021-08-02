@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Application.Interfaces.Repositories
+namespace NowWhat.Application.Interfaces.Repositories
 {
     public interface IExtendedAttributeUnitOfWork<TId, TEntityId, TEntity> : IDisposable where TEntity : AuditableEntity<TEntityId>
     {

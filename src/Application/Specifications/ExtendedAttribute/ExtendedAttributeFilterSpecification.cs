@@ -1,9 +1,9 @@
 ﻿using System;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
-using NoNonense.Application.Specifications.Base;
-using NoNonense.Domain.Contracts;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.Export;
+using NowWhat.Application.Specifications.Base;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Application.Specifications.ExtendedAttribute
+namespace NowWhat.Application.Specifications.ExtendedAttribute
 {
     public class ExtendedAttributeFilterSpecification<TId, TEntityId, TEntity, TExtendedAttribute>
         : HeroSpecification<TExtendedAttribute>

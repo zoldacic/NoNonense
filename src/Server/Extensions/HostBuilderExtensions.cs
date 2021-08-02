@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-namespace NoNonense.Server.Extensions
+namespace NowWhat.Server.Extensions
 {
     internal static class HostBuilderExtensions
     {

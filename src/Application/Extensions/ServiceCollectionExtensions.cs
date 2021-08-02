@@ -3,16 +3,16 @@ using System.Linq;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.Delete;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetById;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.Delete;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.Export;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetById;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Wrapper;
 
-namespace NoNonense.Application.Extensions
+namespace NowWhat.Application.Extensions
 {
     public static class ServiceCollectionExtensions
     {

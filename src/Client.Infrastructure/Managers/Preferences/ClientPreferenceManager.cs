@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using Blazored.LocalStorage;
-using NoNonense.Client.Infrastructure.Settings;
+using NowWhat.Client.Infrastructure.Settings;
 using MudBlazor;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Storage;
-using NoNonense.Shared.Settings;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Shared.Constants.Storage;
+using NowWhat.Shared.Settings;
+using NowWhat.Shared.Wrapper;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Client.Infrastructure.Managers.Preferences
+namespace NowWhat.Client.Infrastructure.Managers.Preferences
 {
     public class ClientPreferenceManager : IClientPreferenceManager
     {

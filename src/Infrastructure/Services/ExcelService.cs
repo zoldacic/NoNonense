@@ -1,4 +1,4 @@
-﻿using NoNonense.Application.Interfaces.Services;
+﻿using NowWhat.Application.Interfaces.Services;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services
+namespace NowWhat.Infrastructure.Services
 {
     public class ExcelService : IExcelService
     {

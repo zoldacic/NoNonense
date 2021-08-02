@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Requests.Identity;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class RegisterUserModal
     {

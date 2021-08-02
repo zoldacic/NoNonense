@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Shared.Wrapper
+namespace NowWhat.Shared.Wrapper
 {
     public class Result : IResult
     {

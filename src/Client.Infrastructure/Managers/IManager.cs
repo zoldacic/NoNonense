@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Client.Infrastructure.Managers
+﻿namespace NowWhat.Client.Infrastructure.Managers
 {
     public interface IManager
     {

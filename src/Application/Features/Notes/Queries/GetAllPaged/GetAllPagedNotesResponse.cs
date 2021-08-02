@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.Notes.Queries.GetAllPaged
+﻿namespace NowWhat.Application.Features.Notes.Queries.GetAllPaged
 {
     public class GetAllPagedNotesResponse
     {

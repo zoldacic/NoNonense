@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Settings
+﻿namespace NowWhat.Shared.Settings
 {
     public interface IPreference
     {

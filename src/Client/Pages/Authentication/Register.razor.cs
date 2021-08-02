@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Requests.Identity;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
 
-namespace NoNonense.Client.Pages.Authentication
+namespace NowWhat.Client.Pages.Authentication
 {
     public partial class Register
     {

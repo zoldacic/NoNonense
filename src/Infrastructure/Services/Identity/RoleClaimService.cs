@@ -2,17 +2,17 @@
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services.Identity
+namespace NowWhat.Infrastructure.Services.Identity
 {
     public class RoleClaimService : IRoleClaimService
     {

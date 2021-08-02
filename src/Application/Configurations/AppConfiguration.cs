@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Configurations
+﻿namespace NowWhat.Application.Configurations
 {
     public class AppConfiguration
     {

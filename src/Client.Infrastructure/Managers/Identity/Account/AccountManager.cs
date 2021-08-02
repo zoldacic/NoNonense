@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Account
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Account
 {
     public class AccountManager : IAccountManager
     {

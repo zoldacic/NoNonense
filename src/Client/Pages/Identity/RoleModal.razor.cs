@@ -1,14 +1,14 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
+using NowWhat.Client.Infrastructure.Managers.Identity.Roles;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class RoleModal
     {

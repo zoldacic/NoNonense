@@ -1,14 +1,14 @@
-using NoNonense.Client.Extensions;
-using NoNonense.Client.Infrastructure.Managers.Preferences;
+using NowWhat.Client.Extensions;
+using NowWhat.Client.Infrastructure.Managers.Preferences;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Settings;
-using NoNonense.Shared.Constants.Localization;
+using NowWhat.Client.Infrastructure.Settings;
+using NowWhat.Shared.Constants.Localization;
 
-namespace NoNonense.Client
+namespace NowWhat.Client
 {
     public static class Program
     {

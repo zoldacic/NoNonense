@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Shared.Constants.Permission;
+﻿using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace NoNonense.Server.Controllers.Identity
+namespace NowWhat.Server.Controllers.Identity
 {
     [Authorize]
     [Route("api/identity/user")]

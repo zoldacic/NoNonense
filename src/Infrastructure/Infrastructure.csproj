@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>NoNonense.Infrastructure</RootNamespace>
-    <AssemblyName>NoNonense.Infrastructure</AssemblyName>
+    <RootNamespace>NowWhat.Infrastructure</RootNamespace>
+    <AssemblyName>NowWhat.Infrastructure</AssemblyName>
   </PropertyGroup>
 
   <!--<ItemGroup>

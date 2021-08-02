@@ -1,4 +1,4 @@
-namespace NoNonense.Application.Models.Chat
+namespace NowWhat.Application.Models.Chat
 {
     public class Message
     {

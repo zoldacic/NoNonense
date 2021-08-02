@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.Application
+﻿namespace NowWhat.Shared.Constants.Application
 {
     public static class ApplicationConstants
     {

@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Enums;
+﻿using NowWhat.Application.Enums;
 
-namespace NoNonense.Application.Requests
+namespace NowWhat.Application.Requests
 {
     public class UploadRequest
     {

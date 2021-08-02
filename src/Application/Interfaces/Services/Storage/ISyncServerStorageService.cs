@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Interfaces.Services.Storage
+namespace NowWhat.Application.Interfaces.Services.Storage
 {
     public interface ISyncServerStorageService
     {

@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Models.Chat;
+﻿using NowWhat.Application.Models.Chat;
 using System.Collections.Generic;
-using NoNonense.Application.Interfaces.Chat;
+using NowWhat.Application.Interfaces.Chat;
 
-namespace NoNonense.Application.Responses.Identity
+namespace NowWhat.Application.Responses.Identity
 {
     public class ChatUserResponse
     {

@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Account
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Account
 {
     public interface IAccountManager : IManager
     {

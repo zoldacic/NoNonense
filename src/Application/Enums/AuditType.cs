@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Enums
+﻿namespace NowWhat.Application.Enums
 {
     public enum AuditType : byte
     {

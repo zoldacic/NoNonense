@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Features.Documents.Commands.AddEdit;
-using NoNonense.Application.Features.Documents.Queries.GetAll;
-using NoNonense.Application.Requests.Documents;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Features.Documents.Commands.AddEdit;
+using NowWhat.Application.Features.Documents.Queries.GetAll;
+using NowWhat.Application.Requests.Documents;
+using NowWhat.Shared.Wrapper;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Documents.Queries.GetById;
+using NowWhat.Application.Features.Documents.Queries.GetById;
 
-namespace NoNonense.Client.Infrastructure.Managers.Misc.Document
+namespace NowWhat.Client.Infrastructure.Managers.Misc.Document
 {
     public interface IDocumentManager : IManager
     {

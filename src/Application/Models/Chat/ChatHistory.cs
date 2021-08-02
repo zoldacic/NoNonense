@@ -1,7 +1,7 @@
 ﻿using System;
-using NoNonense.Application.Interfaces.Chat;
+using NowWhat.Application.Interfaces.Chat;
 
-namespace NoNonense.Application.Models.Chat
+namespace NowWhat.Application.Models.Chat
 {
     public partial class ChatHistory<TUser> : IChatHistory<TUser> where TUser : IChatUser
     {

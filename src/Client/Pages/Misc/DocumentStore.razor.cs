@@ -1,20 +1,20 @@
-﻿using NoNonense.Application.Features.Documents.Queries.GetAll;
-using NoNonense.Application.Requests.Documents;
-using NoNonense.Client.Extensions;
+﻿using NowWhat.Application.Features.Documents.Queries.GetAll;
+using NowWhat.Application.Requests.Documents;
+using NowWhat.Client.Extensions;
 using MudBlazor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Documents.Commands.AddEdit;
-using NoNonense.Client.Infrastructure.Managers.Misc.Document;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.Documents.Commands.AddEdit;
+using NowWhat.Client.Infrastructure.Managers.Misc.Document;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace NoNonense.Client.Pages.Misc
+namespace NowWhat.Client.Pages.Misc
 {
     public partial class DocumentStore
     {

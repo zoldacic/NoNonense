@@ -1,8 +1,8 @@
-﻿using NoNonense.Application.Features.Documents.Commands.AddEdit;
+﻿using NowWhat.Application.Features.Documents.Commands.AddEdit;
 using FluentValidation;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Validators.Features.Documents.Commands.AddEdit
+namespace NowWhat.Application.Validators.Features.Documents.Commands.AddEdit
 {
     public class AddEditDocumentCommandValidator : AbstractValidator<AddEditDocumentCommand>
     {

@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Specifications.Base;
-using NoNonense.Domain.Entities.Catalog;
+﻿using NowWhat.Application.Specifications.Base;
+using NowWhat.Domain.Entities.Catalog;
 
-namespace NoNonense.Application.Specifications.Catalog
+namespace NowWhat.Application.Specifications.Catalog
 {
     public class NoteFilterSpecification : HeroSpecification<Note>
     {

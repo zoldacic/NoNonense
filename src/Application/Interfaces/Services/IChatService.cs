@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Responses.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Responses.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Application.Models.Chat;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Application.Models.Chat;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface IChatService
     {

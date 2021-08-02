@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace NoNonense.Client
+namespace NowWhat.Client
 {
     [ExcludeFromCodeCoverage]
     public class CustomIcons

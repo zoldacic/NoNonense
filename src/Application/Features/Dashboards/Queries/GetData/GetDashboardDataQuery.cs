@@ -1,18 +1,18 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Domain.Entities.ExtendedAttributes;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Domain.Entities.ExtendedAttributes;
+using NowWhat.Domain.Entities.Misc;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Dashboards.Queries.GetData
+namespace NowWhat.Application.Features.Dashboards.Queries.GetData
 {
     public class GetDashboardDataQuery : IRequest<Result<DashboardDataResponse>>
     {

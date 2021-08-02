@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoNonense.Domain.Contracts
+namespace NowWhat.Domain.Contracts
 {
     public interface IEntityWithExtendedAttributes<TExtendedAttribute>
     {

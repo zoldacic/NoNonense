@@ -1,6 +1,6 @@
 ﻿using Hangfire.Dashboard;
 
-namespace NoNonense.Server.Filters
+namespace NowWhat.Server.Filters
 {
     public class HangfireAuthorizationFilter : IDashboardAuthorizationFilter
     {

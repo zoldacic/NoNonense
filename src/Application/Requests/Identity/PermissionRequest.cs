@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoNonense.Application.Requests.Identity
+namespace NowWhat.Application.Requests.Identity
 {
     public class PermissionRequest
     {

@@ -1,20 +1,20 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Infrastructure.Models.Audit;
-using NoNonense.Application.Responses.Audit;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Infrastructure.Models.Audit;
+using NowWhat.Application.Responses.Audit;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Application.Extensions;
-using NoNonense.Infrastructure.Specifications;
+using NowWhat.Application.Extensions;
+using NowWhat.Infrastructure.Specifications;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services
+namespace NowWhat.Infrastructure.Services
 {
     public class AuditService : IAuditService
     {

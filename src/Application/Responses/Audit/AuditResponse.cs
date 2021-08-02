@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Responses.Audit
+namespace NowWhat.Application.Responses.Audit
 {
     public class AuditResponse
     {

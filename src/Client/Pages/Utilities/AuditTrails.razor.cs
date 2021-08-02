@@ -1,4 +1,4 @@
-﻿using NoNonense.Application.Responses.Audit;
+﻿using NowWhat.Application.Responses.Audit;
 using Microsoft.JSInterop;
 using MudBlazor;
 using System;
@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Managers.Audit;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Client.Infrastructure.Managers.Audit;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Components;
 
-namespace NoNonense.Client.Pages.Utilities
+namespace NowWhat.Client.Pages.Utilities
 {
     public partial class AuditTrails
     {

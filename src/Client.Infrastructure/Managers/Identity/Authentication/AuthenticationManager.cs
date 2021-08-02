@@ -1,9 +1,9 @@
 ﻿using Blazored.LocalStorage;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Infrastructure.Authentication;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Infrastructure.Authentication;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using Microsoft.AspNetCore.Components.Authorization;
 using System;
 using System.Net.Http;
@@ -11,11 +11,11 @@ using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Client.Infrastructure.Routes;
-using NoNonense.Shared.Constants.Storage;
+using NowWhat.Client.Infrastructure.Routes;
+using NowWhat.Shared.Constants.Storage;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Authentication
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Authentication
 {
     public class AuthenticationManager : IAuthenticationManager
     {

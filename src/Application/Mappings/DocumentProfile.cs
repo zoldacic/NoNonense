@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Features.Documents.Commands.AddEdit;
-using NoNonense.Application.Features.Documents.Queries.GetById;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Application.Features.Documents.Commands.AddEdit;
+using NowWhat.Application.Features.Documents.Queries.GetById;
+using NowWhat.Domain.Entities.Misc;
 
-namespace NoNonense.Application.Mappings
+namespace NowWhat.Application.Mappings
 {
     public class DocumentProfile : Profile
     {

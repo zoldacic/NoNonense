@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoNonense.Application.Features.Dashboards.Queries.GetData
+namespace NowWhat.Application.Features.Dashboards.Queries.GetData
 {
     public class DashboardDataResponse
     {

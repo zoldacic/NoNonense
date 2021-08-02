@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Server.Localization
+﻿namespace NowWhat.Server.Localization
 {
     internal class ServerCommonResources
     {

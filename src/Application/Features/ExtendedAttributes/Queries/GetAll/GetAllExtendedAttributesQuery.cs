@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using LazyCache;
 using MediatR;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll
+namespace NowWhat.Application.Features.ExtendedAttributes.Queries.GetAll
 {
     public class GetAllExtendedAttributesQuery<TId, TEntityId, TEntity, TExtendedAttribute>
         : IRequest<Result<List<GetAllExtendedAttributesResponse<TId, TEntityId>>>>

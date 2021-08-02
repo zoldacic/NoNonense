@@ -1,9 +1,9 @@
-﻿using NoNonense.Domain.Contracts;
+﻿using NowWhat.Domain.Contracts;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Repositories
+namespace NowWhat.Application.Interfaces.Repositories
 {
     public interface IUnitOfWork<TId> : IDisposable
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 
-namespace NoNonense.Infrastructure.Migrations
+namespace NowWhat.Infrastructure.Migrations
 {
     public partial class initial : Migration
     {

@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Interfaces.Common;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Common;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services.Identity
+namespace NowWhat.Application.Interfaces.Services.Identity
 {
     public interface IRoleService : IService
     {

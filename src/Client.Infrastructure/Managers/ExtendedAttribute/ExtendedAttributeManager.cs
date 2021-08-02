@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.Export;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAll;
-using NoNonense.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Domain.Contracts;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.Export;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAll;
+using NowWhat.Application.Features.ExtendedAttributes.Queries.GetAllByEntityId;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Domain.Contracts;
+using NowWhat.Shared.Wrapper;
 
-namespace NoNonense.Client.Infrastructure.Managers.ExtendedAttribute
+namespace NowWhat.Client.Infrastructure.Managers.ExtendedAttribute
 {
     public class ExtendedAttributeManager<TId, TEntityId, TEntity, TExtendedAttribute>
         : IExtendedAttributeManager<TId, TEntityId, TEntity, TExtendedAttribute>

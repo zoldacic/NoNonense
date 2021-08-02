@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Specifications.Catalog;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Specifications.Catalog;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.Tags.Queries.Export
+namespace NowWhat.Application.Features.Tags.Queries.Export
 {
     public class ExportTagsQuery : IRequest<Result<string>>
     {

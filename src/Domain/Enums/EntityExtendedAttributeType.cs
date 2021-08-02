@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Domain.Enums
+﻿namespace NowWhat.Domain.Enums
 {
     public enum EntityExtendedAttributeType : byte
     {

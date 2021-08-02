@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Requests.Identity;
+﻿using NowWhat.Application.Requests.Identity;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class UserProfile
     {

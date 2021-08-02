@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Text.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Services.Storage;
-using NoNonense.Application.Interfaces.Services.Storage.Provider;
-using NoNonense.Application.Interfaces.Serialization.Serializers;
+using NowWhat.Application.Interfaces.Services.Storage;
+using NowWhat.Application.Interfaces.Services.Storage.Provider;
+using NowWhat.Application.Interfaces.Serialization.Serializers;
 
-namespace NoNonense.Infrastructure.Services.Storage
+namespace NowWhat.Infrastructure.Services.Storage
 {
     public class ServerStorageService : IServerStorageService, ISyncServerStorageService
     {

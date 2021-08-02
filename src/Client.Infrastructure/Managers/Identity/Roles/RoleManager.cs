@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.Roles
+namespace NowWhat.Client.Infrastructure.Managers.Identity.Roles
 {
     public class RoleManager : IRoleManager
     {

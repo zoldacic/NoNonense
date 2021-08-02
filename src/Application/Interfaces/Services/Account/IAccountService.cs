@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Interfaces.Common;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Common;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services.Account
+namespace NowWhat.Application.Interfaces.Services.Account
 {
     public interface IAccountService : IService
     {

@@ -1,8 +1,8 @@
 ﻿
-using NoNonense.Application.Interfaces.Serialization.Settings;
+using NowWhat.Application.Interfaces.Serialization.Settings;
 using Newtonsoft.Json;
 
-namespace NoNonense.Application.Serialization.Settings
+namespace NowWhat.Application.Serialization.Settings
 {
     public class NewtonsoftJsonSettings : IJsonSerializerSettings
     {

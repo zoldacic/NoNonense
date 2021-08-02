@@ -1,12 +1,12 @@
-﻿using NoNonense.Application.Serialization.Options;
-using NoNonense.Application.Serialization.Serializers;
-using NoNonense.Domain.Contracts;
-using NoNonense.Infrastructure.Extensions;
+﻿using NowWhat.Application.Serialization.Options;
+using NowWhat.Application.Serialization.Serializers;
+using NowWhat.Domain.Contracts;
+using NowWhat.Infrastructure.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.Extensions.Options;
 
-namespace NoNonense.Infrastructure.Configurations
+namespace NowWhat.Infrastructure.Configurations
 {
     public class EntityExtendedAttributeConfiguration : IEntityTypeConfiguration<IEntityExtendedAttribute>
     {

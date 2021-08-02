@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.Localization
+﻿namespace NowWhat.Shared.Constants.Localization
 {
     public static class LocalizationConstants
     {

@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Features.Tags.Queries.GetById
+namespace NowWhat.Application.Features.Tags.Queries.GetById
 {
     public class GetTagByIdQuery : IRequest<Result<GetTagByIdResponse>>
     {

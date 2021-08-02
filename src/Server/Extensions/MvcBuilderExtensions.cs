@@ -1,12 +1,12 @@
 ﻿using System.Linq;
-using NoNonense.Application.Configurations;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Application.Validators.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Configurations;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Application.Validators.Features.ExtendedAttributes.Commands.AddEdit;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace NoNonense.Server.Extensions
+namespace NowWhat.Server.Extensions
 {
     internal static class MvcBuilderExtensions
     {

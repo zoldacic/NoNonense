@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.Storage
+﻿namespace NowWhat.Shared.Constants.Storage
 {
     public static class StorageConstants
     {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Server.Permission
+namespace NowWhat.Server.Permission
 {
     internal class PermissionRequirement : IAuthorizationRequirement
     {

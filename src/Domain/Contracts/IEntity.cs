@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Domain.Contracts
+﻿namespace NowWhat.Domain.Contracts
 {
     public interface IEntity<TId> : IEntity
     {

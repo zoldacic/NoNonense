@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoNonense.Application.Responses.Identity
+namespace NowWhat.Application.Responses.Identity
 {
     public class GetAllUsersResponse
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
-using NoNonense.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Application;
 
-namespace NoNonense.Client.Extensions
+namespace NowWhat.Client.Extensions
 {
     public static class HubExtensions
     {

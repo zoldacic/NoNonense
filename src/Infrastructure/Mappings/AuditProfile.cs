@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using NoNonense.Infrastructure.Models.Audit;
-using NoNonense.Application.Responses.Audit;
+using NowWhat.Infrastructure.Models.Audit;
+using NowWhat.Application.Responses.Audit;
 
-namespace NoNonense.Infrastructure.Mappings
+namespace NowWhat.Infrastructure.Mappings
 {
     public class AuditProfile : Profile
     {

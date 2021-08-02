@@ -1,8 +1,8 @@
-﻿using NoNonense.Client.Extensions;
+﻿using NowWhat.Client.Extensions;
 using Microsoft.AspNetCore.Components;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Shared.Components
+namespace NowWhat.Client.Shared.Components
 {
     public partial class UserCard
     {

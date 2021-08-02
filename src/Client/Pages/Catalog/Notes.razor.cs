@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
-using NoNonense.Application.Requests.Catalog;
-using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Features.Notes.Queries.GetAllPaged;
+using NowWhat.Application.Requests.Catalog;
+using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using Microsoft.JSInterop;
@@ -11,12 +11,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Notes.Commands.AddEdit;
-using NoNonense.Client.Infrastructure.Managers.Catalog.Note;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.Notes.Commands.AddEdit;
+using NowWhat.Client.Infrastructure.Managers.Catalog.Note;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Client.Pages.Catalog
+namespace NowWhat.Client.Pages.Catalog
 {
     public partial class Notes
     {

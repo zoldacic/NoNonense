@@ -3,15 +3,15 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.DocumentTypes.Commands.AddEdit
+namespace NowWhat.Application.Features.DocumentTypes.Commands.AddEdit
 {
     public class AddEditDocumentTypeCommand : IRequest<Result<int>>
     {

@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using AutoMapper;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Requests;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Requests;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
@@ -12,7 +12,7 @@ using Microsoft.Extensions.Localization;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
-namespace NoNonense.Application.Features.Notes.Commands.AddEdit
+namespace NowWhat.Application.Features.Notes.Commands.AddEdit
 {
     public partial class AddEditNoteCommand : IRequest<Result<int>>
     {

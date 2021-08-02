@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Misc;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Misc;
 using Microsoft.EntityFrameworkCore;
 
-namespace NoNonense.Infrastructure.Repositories
+namespace NowWhat.Infrastructure.Repositories
 {
     public class DocumentRepository : IDocumentRepository
     {

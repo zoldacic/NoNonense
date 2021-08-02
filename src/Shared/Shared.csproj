@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>NoNonense.Shared</RootNamespace>
-    <AssemblyName>NoNonense.Shared</AssemblyName>
+    <RootNamespace>NowWhat.Shared</RootNamespace>
+    <AssemblyName>NowWhat.Shared</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

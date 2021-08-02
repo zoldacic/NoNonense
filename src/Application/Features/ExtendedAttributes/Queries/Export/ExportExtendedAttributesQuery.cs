@@ -4,18 +4,18 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Specifications.ExtendedAttribute;
-using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Enums;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Specifications.ExtendedAttribute;
+using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Enums;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Queries.Export
+namespace NowWhat.Application.Features.ExtendedAttributes.Queries.Export
 {
     internal class ExportExtendedAttributesQueryLocalization
     {

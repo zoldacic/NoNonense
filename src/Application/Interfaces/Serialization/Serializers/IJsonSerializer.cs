@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Interfaces.Serialization.Serializers
+﻿namespace NowWhat.Application.Interfaces.Serialization.Serializers
 {
     public interface IJsonSerializer
     {

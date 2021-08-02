@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Responses.Identity;
+﻿using NowWhat.Application.Responses.Identity;
 using System.Collections.Generic;
 
-namespace NoNonense.Application.Requests.Identity
+namespace NowWhat.Application.Requests.Identity
 {
     public class UpdateUserRolesRequest
     {

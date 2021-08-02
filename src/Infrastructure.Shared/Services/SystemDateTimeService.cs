@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Interfaces.Services;
+﻿using NowWhat.Application.Interfaces.Services;
 using System;
 
-namespace NoNonense.Infrastructure.Shared.Services
+namespace NowWhat.Infrastructure.Shared.Services
 {
     public class SystemDateTimeService : IDateTimeService
     {

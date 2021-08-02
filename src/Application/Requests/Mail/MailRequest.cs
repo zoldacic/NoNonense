@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Requests.Mail
+﻿namespace NowWhat.Application.Requests.Mail
 {
     public class MailRequest
     {

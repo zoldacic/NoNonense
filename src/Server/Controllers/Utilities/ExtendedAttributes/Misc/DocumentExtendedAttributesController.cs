@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
-using NoNonense.Application.Features.ExtendedAttributes.Commands.AddEdit;
-using NoNonense.Domain.Entities.ExtendedAttributes;
-using NoNonense.Domain.Entities.Misc;
-using NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Base;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.ExtendedAttributes.Commands.AddEdit;
+using NowWhat.Domain.Entities.ExtendedAttributes;
+using NowWhat.Domain.Entities.Misc;
+using NowWhat.Server.Controllers.Utilities.ExtendedAttributes.Base;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NoNonense.Server.Controllers.Utilities.ExtendedAttributes.Misc
+namespace NowWhat.Server.Controllers.Utilities.ExtendedAttributes.Misc
 {
     public class DocumentExtendedAttributesController : ExtendedAttributesController<int, int, Document, DocumentExtendedAttribute>
     {

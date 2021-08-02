@@ -1,14 +1,14 @@
-﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
-using NoNonense.Application.Features.Notes.Commands.Delete;
-using NoNonense.Application.Features.Notes.Queries.Export;
-using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
-using NoNonense.Application.Features.Notes.Queries.GetNoteImage;
-using NoNonense.Shared.Constants.Permission;
+﻿using NowWhat.Application.Features.Notes.Commands.AddEdit;
+using NowWhat.Application.Features.Notes.Commands.Delete;
+using NowWhat.Application.Features.Notes.Queries.Export;
+using NowWhat.Application.Features.Notes.Queries.GetAllPaged;
+using NowWhat.Application.Features.Notes.Queries.GetNoteImage;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace NoNonense.Server.Controllers.v1.Catalog
+namespace NowWhat.Server.Controllers.v1.Catalog
 {
     public class NotesController : BaseApiController<NotesController>
     {

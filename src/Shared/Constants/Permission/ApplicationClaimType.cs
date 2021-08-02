@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.Permission
+﻿namespace NowWhat.Shared.Constants.Permission
 {
     public static class ApplicationClaimTypes
     {

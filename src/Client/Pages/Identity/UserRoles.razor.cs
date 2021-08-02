@@ -1,15 +1,15 @@
 ﻿using System;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class UserRoles
     {

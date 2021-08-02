@@ -1,8 +1,8 @@
 ﻿using System;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 using Microsoft.AspNetCore.Components;
 
-namespace NoNonense.Client.Shared.Components
+namespace NowWhat.Client.Shared.Components
 {
     public abstract partial class ExtendedAttributes<TId, TEntityId, TEntity, TExtendedAttribute>
         : ExtendedAttributesBase<TId, TEntityId, TEntity, TExtendedAttribute>

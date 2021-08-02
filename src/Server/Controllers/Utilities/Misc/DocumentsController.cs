@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Features.Documents.Commands.AddEdit;
-using NoNonense.Application.Features.Documents.Commands.Delete;
-using NoNonense.Application.Features.Documents.Queries.GetAll;
+﻿using NowWhat.Application.Features.Documents.Commands.AddEdit;
+using NowWhat.Application.Features.Documents.Commands.Delete;
+using NowWhat.Application.Features.Documents.Queries.GetAll;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Documents.Queries.GetById;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.Documents.Queries.GetById;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Server.Controllers.Utilities.Misc
+namespace NowWhat.Server.Controllers.Utilities.Misc
 {
     [Route("api/[controller]")]
     [ApiController]

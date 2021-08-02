@@ -2,12 +2,12 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 
-namespace NoNonense.Client.Infrastructure.Managers.Identity.RoleClaims
+namespace NowWhat.Client.Infrastructure.Managers.Identity.RoleClaims
 {
     public class RoleClaimManager : IRoleClaimManager
     {

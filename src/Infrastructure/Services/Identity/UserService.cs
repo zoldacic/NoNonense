@@ -6,24 +6,24 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using AutoMapper;
-using NoNonense.Application.Exceptions;
-using NoNonense.Application.Extensions;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Application.Requests.Mail;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Infrastructure.Specifications;
-using NoNonense.Shared.Constants.Role;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Exceptions;
+using NowWhat.Application.Extensions;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Application.Requests.Mail;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Infrastructure.Specifications;
+using NowWhat.Shared.Constants.Role;
+using NowWhat.Shared.Wrapper;
 using Hangfire;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services.Identity
+namespace NowWhat.Infrastructure.Services.Identity
 {
     public class UserService : IUserService
     {

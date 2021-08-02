@@ -1,12 +1,12 @@
-﻿using NoNonense.Domain.Contracts;
+﻿using NowWhat.Domain.Contracts;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Application.Models.Chat;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Application.Models.Chat;
 
-namespace NoNonense.Infrastructure.Models.Identity
+namespace NowWhat.Infrastructure.Models.Identity
 {
     public class BlazorHeroUser : IdentityUser<string>, IChatUser, IAuditableEntity<string>
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Storage.Provider;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Storage.Provider;
 
-namespace NoNonense.Infrastructure.Services.Storage.Provider
+namespace NowWhat.Infrastructure.Services.Storage.Provider
 {
     internal class ServerStorageProvider : IStorageProvider
     {

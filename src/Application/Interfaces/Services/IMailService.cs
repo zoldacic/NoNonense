@@ -1,7 +1,7 @@
-﻿using NoNonense.Application.Requests.Mail;
+﻿using NowWhat.Application.Requests.Mail;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Interfaces.Services
+namespace NowWhat.Application.Interfaces.Services
 {
     public interface IMailService
     {

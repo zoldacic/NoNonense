@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Client.Infrastructure.Routes
+﻿namespace NowWhat.Client.Infrastructure.Routes
 {
     class RoleClaimsEndpoints
     {

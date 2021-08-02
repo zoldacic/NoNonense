@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Features.Documents.Queries.GetAll
+namespace NowWhat.Application.Features.Documents.Queries.GetAll
 {
     public class GetAllDocumentsResponse
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using NoNonense.Domain.Contracts;
+using NowWhat.Domain.Contracts;
 
-namespace NoNonense.Infrastructure.Models.Audit
+namespace NowWhat.Infrastructure.Models.Audit
 {
     public class Audit : IEntity<int>
     {

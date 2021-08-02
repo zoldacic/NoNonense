@@ -1,14 +1,14 @@
-﻿using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
 using System.Threading.Tasks;
 using Blazored.FluentValidation;
-using NoNonense.Application.Features.Tags.Commands.AddEdit;
-using NoNonense.Client.Infrastructure.Managers.Catalog.Tag;
+using NowWhat.Application.Features.Tags.Commands.AddEdit;
+using NowWhat.Client.Infrastructure.Managers.Catalog.Tag;
 
-namespace NoNonense.Client.Pages.Catalog
+namespace NowWhat.Client.Pages.Catalog
 {
     public partial class AddEditTagModal
     {

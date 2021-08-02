@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace NoNonense.Server.Middlewares
+namespace NowWhat.Server.Middlewares
 {
     public class RequestCultureMiddleware
     {

@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Responses.Audit;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Responses.Audit;
+using NowWhat.Shared.Wrapper;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Audit
+namespace NowWhat.Client.Infrastructure.Managers.Audit
 {
     public interface IAuditManager : IManager
     {

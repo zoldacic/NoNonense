@@ -1,16 +1,16 @@
-﻿using NoNonense.Application.Responses.Identity;
+﻿using NowWhat.Application.Responses.Identity;
 using MudBlazor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Application;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Shared.Constants.Application;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.JSInterop;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class Users
     {

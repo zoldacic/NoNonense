@@ -1,8 +1,8 @@
-﻿using NoNonense.Shared.Managers;
+﻿using NowWhat.Shared.Managers;
 using MudBlazor;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Preferences
+namespace NowWhat.Client.Infrastructure.Managers.Preferences
 {
     public interface IClientPreferenceManager : IPreferenceManager
     {

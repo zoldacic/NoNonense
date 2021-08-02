@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
-using NoNonense.Application.Interfaces.Serialization.Options;
+using NowWhat.Application.Interfaces.Serialization.Options;
 
-namespace NoNonense.Application.Serialization.Options
+namespace NowWhat.Application.Serialization.Options
 {
     public class SystemTextJsonOptions : IJsonSerializerOptions
     {

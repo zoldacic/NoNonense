@@ -1,13 +1,13 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
+using NowWhat.Shared.Wrapper;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NoNonense.Application.Features.Notes.Queries.GetNoteImage
+namespace NowWhat.Application.Features.Notes.Queries.GetNoteImage
 {
     public class GetNoteImageQuery : IRequest<Result<string>>
     {

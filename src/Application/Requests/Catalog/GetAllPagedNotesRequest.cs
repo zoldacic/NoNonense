@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Requests.Catalog
+﻿namespace NowWhat.Application.Requests.Catalog
 {
     public class GetAllPagedNotesRequest : PagedRequest
     {

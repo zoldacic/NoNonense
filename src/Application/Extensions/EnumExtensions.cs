@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace NoNonense.Application.Extensions
+namespace NowWhat.Application.Extensions
 {
     public static class EnumExtensions
     {

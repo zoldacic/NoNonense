@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Dashboards.Queries.GetData;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Features.Dashboards.Queries.GetData;
+using NowWhat.Shared.Constants.Permission;
 
-namespace NoNonense.Server.Controllers.v1
+namespace NowWhat.Server.Controllers.v1
 {
     [ApiController]
     public class DashboardController : BaseApiController<DashboardController>

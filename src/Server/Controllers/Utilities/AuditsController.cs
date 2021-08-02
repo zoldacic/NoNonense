@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Interfaces.Services;
+﻿using NowWhat.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Shared.Constants.Permission;
 
-namespace NoNonense.Server.Controllers.Utilities
+namespace NowWhat.Server.Controllers.Utilities
 {
     [Route("api/[controller]")]
     [ApiController]

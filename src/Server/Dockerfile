@@ -29,4 +29,4 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 WORKDIR /app/Files
 WORKDIR /app
-ENTRYPOINT ["dotnet", "NoNonense.Server.dll"]
+ENTRYPOINT ["dotnet", "NowWhat.Server.dll"]

@@ -1,10 +1,10 @@
-﻿using NoNonense.Client.Infrastructure.Extensions;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Client.Infrastructure.Extensions;
+using NowWhat.Shared.Wrapper;
 using System.Net.Http;
 using System.Threading.Tasks;
-using NoNonense.Application.Features.Dashboards.Queries.GetData;
+using NowWhat.Application.Features.Dashboards.Queries.GetData;
 
-namespace NoNonense.Client.Infrastructure.Managers.Dashboard
+namespace NowWhat.Client.Infrastructure.Managers.Dashboard
 {
     public class DashboardManager : IDashboardManager
     {

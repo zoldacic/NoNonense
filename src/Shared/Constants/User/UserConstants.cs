@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Shared.Constants.User
+﻿namespace NowWhat.Shared.Constants.User
 {
     public static class UserConstants
     {

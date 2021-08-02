@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.DocumentTypes.Queries.GetById
+﻿namespace NowWhat.Application.Features.DocumentTypes.Queries.GetById
 {
     public class GetDocumentTypeByIdResponse
     {

@@ -1,6 +1,6 @@
-﻿using NoNonense.Application.Responses.Identity;
-using NoNonense.Client.Extensions;
-using NoNonense.Shared.Constants.Application;
+﻿using NowWhat.Application.Responses.Identity;
+using NowWhat.Client.Extensions;
+using NowWhat.Shared.Constants.Application;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.SignalR.Client;
 using MudBlazor;
@@ -9,12 +9,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using NoNonense.Application.Requests.Identity;
-using NoNonense.Client.Infrastructure.Managers.Identity.Roles;
-using NoNonense.Shared.Constants.Permission;
+using NowWhat.Application.Requests.Identity;
+using NowWhat.Client.Infrastructure.Managers.Identity.Roles;
+using NowWhat.Shared.Constants.Permission;
 using Microsoft.AspNetCore.Authorization;
 
-namespace NoNonense.Client.Pages.Identity
+namespace NowWhat.Client.Pages.Identity
 {
     public partial class Roles
     {

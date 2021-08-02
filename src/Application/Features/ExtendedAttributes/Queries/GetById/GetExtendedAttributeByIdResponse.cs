@@ -1,9 +1,9 @@
 ﻿#nullable enable
 using System;
-using NoNonense.Domain.Contracts;
-using NoNonense.Domain.Enums;
+using NowWhat.Domain.Contracts;
+using NowWhat.Domain.Enums;
 
-namespace NoNonense.Application.Features.ExtendedAttributes.Queries.GetById
+namespace NowWhat.Application.Features.ExtendedAttributes.Queries.GetById
 {
     public class GetExtendedAttributeByIdResponse<TId, TEntityId> : IEntityAuditableExtendedAttribute
     {

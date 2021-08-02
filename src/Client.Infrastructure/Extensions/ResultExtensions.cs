@@ -1,10 +1,10 @@
-﻿using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Shared.Wrapper;
 using System.Net.Http;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Extensions
+namespace NowWhat.Client.Infrastructure.Extensions
 {
     internal static class ResultExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NoNonense.Application.Responses.Identity
+namespace NowWhat.Application.Responses.Identity
 {
     public class TokenResponse
     {

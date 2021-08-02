@@ -1,4 +1,4 @@
-﻿namespace NoNonense.Application.Features.Tags.Queries.GetAll
+﻿namespace NowWhat.Application.Features.Tags.Queries.GetAll
 {
     public class GetAllTagsResponse
     {

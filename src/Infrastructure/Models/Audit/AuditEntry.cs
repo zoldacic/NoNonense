@@ -1,11 +1,11 @@
-﻿using NoNonense.Application.Enums;
+﻿using NowWhat.Application.Enums;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NoNonense.Infrastructure.Models.Audit
+namespace NowWhat.Infrastructure.Models.Audit
 {
     public class AuditEntry
     {

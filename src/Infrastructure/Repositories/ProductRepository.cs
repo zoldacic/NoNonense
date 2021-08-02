@@ -1,9 +1,9 @@
-﻿using NoNonense.Application.Interfaces.Repositories;
-using NoNonense.Domain.Entities.Catalog;
+﻿using NowWhat.Application.Interfaces.Repositories;
+using NowWhat.Domain.Entities.Catalog;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace NoNonense.Infrastructure.Repositories
+namespace NowWhat.Infrastructure.Repositories
 {
     public class NoteRepository : INoteRepository
     {

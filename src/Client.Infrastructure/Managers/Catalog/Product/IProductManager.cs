@@ -1,10 +1,10 @@
-﻿using NoNonense.Application.Features.Notes.Commands.AddEdit;
-using NoNonense.Application.Features.Notes.Queries.GetAllPaged;
-using NoNonense.Application.Requests.Catalog;
-using NoNonense.Shared.Wrapper;
+﻿using NowWhat.Application.Features.Notes.Commands.AddEdit;
+using NowWhat.Application.Features.Notes.Queries.GetAllPaged;
+using NowWhat.Application.Requests.Catalog;
+using NowWhat.Shared.Wrapper;
 using System.Threading.Tasks;
 
-namespace NoNonense.Client.Infrastructure.Managers.Catalog.Note
+namespace NowWhat.Client.Infrastructure.Managers.Catalog.Note
 {
     public interface INoteManager : IManager
     {

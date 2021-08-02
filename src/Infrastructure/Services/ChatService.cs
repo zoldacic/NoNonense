@@ -1,21 +1,21 @@
 ﻿using AutoMapper;
-using NoNonense.Application.Exceptions;
-using NoNonense.Application.Interfaces.Services;
-using NoNonense.Application.Interfaces.Services.Identity;
-using NoNonense.Application.Models.Chat;
-using NoNonense.Application.Responses.Identity;
-using NoNonense.Infrastructure.Contexts;
-using NoNonense.Shared.Wrapper;
+using NowWhat.Application.Exceptions;
+using NowWhat.Application.Interfaces.Services;
+using NowWhat.Application.Interfaces.Services.Identity;
+using NowWhat.Application.Models.Chat;
+using NowWhat.Application.Responses.Identity;
+using NowWhat.Infrastructure.Contexts;
+using NowWhat.Shared.Wrapper;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using NoNonense.Application.Interfaces.Chat;
-using NoNonense.Infrastructure.Models.Identity;
-using NoNonense.Shared.Constants.Role;
+using NowWhat.Application.Interfaces.Chat;
+using NowWhat.Infrastructure.Models.Identity;
+using NowWhat.Shared.Constants.Role;
 using Microsoft.Extensions.Localization;
 
-namespace NoNonense.Infrastructure.Services
+namespace NowWhat.Infrastructure.Services
 {
     public class ChatService : IChatService
     {
